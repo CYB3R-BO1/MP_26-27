@@ -2,7 +2,7 @@
 
 **Phase:** 1 — Paper discovery. **Date:** 27 November 2026. **Status:** 14 candidate reviews recorded; no shortlisting or project selection.
 
-This is a separate AI-assisted independent discovery round, not a replacement for the original member submissions. The four members' original reviews are preserved in their own folders. Two references per assigned source/category are documented using [TEMPLATE.md](../TEMPLATE.md). Preference refers to discovery order within the category, not a final shortlist. ProtocolGuard also appears in Harsha's submission; the independent record is intentional. The two missing-member submissions are not attributed to them.
+This is a separate AI-assisted independent discovery round, not a replacement for the original member submissions. The four members' original reviews are preserved in their own folders. Two references per assigned source/category are documented using [TEMPLATE.md](../TEMPLATE.md). Preference refers to discovery order within the category, not a final shortlist. ProtocolGuard also appears in Harsha's submission; the independent record is intentional. The independent reviews are not attributed to any of the three members who did not submit reviews.
 
 ## Review index
 
