@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "status": "success",
+  "timed_out": false,
+  "exit_code": 0,
+  "command": [
+    "/mnt/c/Users/cherr/Documents/PROJECTS/MP_26-27/finalization/feasibility/environment/tamarin-1.12.0/tamarin-prover",
+    "/mnt/c/Users/cherr/Documents/PROJECTS/MP_26-27/finalization/feasibility/artifacts/TamRL/eval/yubikey_hsm/base_c/yubikey_hsm.spthy",
+    "--prove=one_count_foreach_login",
+    "+RTS",
+    "-N2",
+    "-M2048m",
+    "-RTS"
+  ],
+  "cwd": "/mnt/c/Users/cherr/Documents/PROJECTS/MP_26-27/finalization/feasibility/artifacts/TamRL/eval",
+  "started_at_utc": "2026-11-27T16:41:36.441974+00:00",
+  "ended_at_utc": "2026-11-27T16:42:02.220122+00:00",
+  "timeout_seconds": 180.0,
+  "poll_seconds": 0.1,
+  "elapsed_seconds": 25.777672074999998,
+  "peak_rss_bytes": 1149874176,
+  "peak_vms_bytes": 1100125650944,
+  "peak_process_count": 5,
+  "peak_sampled_cpu_percent": 208.0,
+  "observed_cpu_seconds": 37.5,
+  "average_cpu_percent_from_observed_time": 145.47473445582654,
+  "samples": 254,
+  "host": {
+    "platform": "Linux-6.18.58.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.11.18 (main, Oct 26 2026, 11:35:17) [GCC 15.3.0]",
+    "logical_cpus": 12,
+    "physical_cpus": 6,
+    "total_ram_bytes": 8141942784
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "status": "success",
+  "timed_out": false,
+  "exit_code": 0,
+  "command": [
+    "/home/cherr/mp26_27_env_py311/bin/marissa",
+    "--input",
+    "/mnt/c/Users/cherr/Documents/PROJECTS/MP_26-27/finalization/feasibility/artifacts/MARISSA/dataset/dns_1000.pcap",
+    "--output",
+    "/mnt/c/Users/cherr/Documents/PROJECTS/MP_26-27/finalization/feasibility/results/proto-sure/dns_1000_r1/output",
+    "--remove-headers",
+    "--distance-algorithm",
+    "ssdeep",
+    "--cluster-algorithm",
+    "optics",
+    "--align-algorithm",
+    "mafft"
+  ],
+  "cwd": "/mnt/c/Users/cherr/Documents/PROJECTS/MP_26-27/finalization/feasibility/artifacts/MARISSA",
+  "started_at_utc": "2026-11-27T16:28:42.653326+00:00",
+  "ended_at_utc": "2026-11-27T16:30:23.609179+00:00",
+  "timeout_seconds": 300.0,
+  "poll_seconds": 0.1,
+  "elapsed_seconds": 100.94345094399999,
+  "peak_rss_bytes": 588394496,
+  "peak_vms_bytes": 1438777344,
+  "peak_process_count": 6,
+  "peak_sampled_cpu_percent": 16570.8,
+  "observed_cpu_seconds": 0.0,
+  "average_cpu_percent_from_observed_time": 0.0,
+  "samples": 994,
+  "host": {
+    "platform": "Linux-6.18.58.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.11.18 (main, Oct 26 2026, 11:35:17) [GCC 15.3.0]",
+    "logical_cpus": 12,
+    "physical_cpus": 6,
+    "total_ram_bytes": 8141942784
+  }
+}

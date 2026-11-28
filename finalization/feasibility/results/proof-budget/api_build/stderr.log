@@ -1,0 +1,27 @@
+
+Error: [S-775]
+       Exception while reading snapshot from
+       https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/22/39.yaml:
+       
+       HttpExceptionRequest Request {
+         host                 = "raw.githubusercontent.com"
+         port                 = 443
+         secure               = True
+         requestHeaders       = [("User-Agent","Haskell pantry package")]
+         path                 = "/commercialhaskell/stackage-snapshots/master/lts/22/39.yaml"
+         queryString          = ""
+         method               = "GET"
+         proxy                = Nothing
+         rawBody              = False
+         redirectCount        = 10
+         responseTimeout      = ResponseTimeoutDefault
+         requestVersion       = HTTP/1.1
+         proxySecureMode      = ProxySecureWithConnect
+       }
+        ConnectionTimeout
+       HasCallStack backtrace:
+         collectBacktraces, called at libraries/ghc-internal/src/GHC/Internal/Exception.hs:169:13 in ghc-internal:GHC.Internal.Exception
+         toExceptionWithBacktrace, called at libraries/ghc-internal/src/GHC/Internal/IO.hs:260:11 in ghc-internal:GHC.Internal.IO
+         throwIO, called at ./Network/HTTP/Client/Core.hs:237:29 in http-client-0.7.19-5gzjrwubi3kGPfLZx9hH2:Network.HTTP.Client.Core
+       
+       

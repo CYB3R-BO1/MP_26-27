@@ -1,0 +1,10 @@
+maude tool: 'maude'
+ checking version: 3.5.1. OK.
+ checking installation: OK.
+[Theory YubikeyHSM] Theory loaded
+[Theory YubikeyHSM] Theory translated
+[Theory YubikeyHSM] Derivation checks started
+[Theory YubikeyHSM] Derivation checks ended
+[Theory YubikeyHSM] Theory closed
+[Saturating Sources] Step 1 (Max 5)
+[Saturating Sources] Done

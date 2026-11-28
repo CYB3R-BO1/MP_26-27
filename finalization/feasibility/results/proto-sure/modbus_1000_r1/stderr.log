@@ -1,0 +1,20 @@
+[92m2026-11-27 16:30:52,615 [MARISSA] INFO: Loaded 1000 packets[0m
+[92m2026-11-27 16:30:52,644 [MARISSA] INFO: Performing clustering...[0m
+[92m2026-11-27 16:30:55,749 [MARISSA] INFO: Clustering done. Found 38 clusters[0m
+[92m2026-11-27 16:30:56,161 [MARISSA] INFO: Aligning data[0m
+[92m2026-11-27 16:31:08,774 [MARISSA] INFO: Decoding aligned data[0m
+[92m2026-11-27 16:31:09,337 [MARISSA] INFO: Getting fields for each cluster[0m
+[92m2026-11-27 16:31:09,439 [MARISSA] INFO: Merging clusters with the same field[0m
+[92m2026-11-27 16:31:10,247 [MARISSA] INFO: Merging done, 5 clusters remain[0m
+[92m2026-11-27 16:31:10,411 [MARISSA] INFO: Aligning data[0m
+[92m2026-11-27 16:31:15,363 [MARISSA] INFO: Decoding aligned data[0m
+[92m2026-11-27 16:31:15,415 [MARISSA] INFO: Getting fields for each cluster[0m
+[92m2026-11-27 16:31:15,480 [MARISSA] INFO: Merging clusters with the same field[0m
+[92m2026-11-27 16:31:15,515 [MARISSA] INFO: Merging done, 4 clusters remain[0m
+[92m2026-11-27 16:31:15,779 [MARISSA] INFO: Aligning data[0m
+[92m2026-11-27 16:31:20,733 [MARISSA] INFO: Decoding aligned data[0m
+[92m2026-11-27 16:31:20,830 [MARISSA] INFO: Getting fields for each cluster[0m
+[92m2026-11-27 16:31:20,900 [MARISSA] INFO: Merging clusters with the same field[0m
+[92m2026-11-27 16:31:21,030 [MARISSA] INFO: Aligning all data[0m
+[92m2026-11-27 16:31:26,602 [MARISSA] INFO: Decoding aligned data[0m
+[92m2026-11-27 16:31:26,803 [MARISSA] INFO: Saving results to file[0m

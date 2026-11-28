@@ -1,0 +1,13 @@
+[92m2026-11-27 16:30:26,336 [MARISSA] INFO: Loaded 100 packets[0m
+[92m2026-11-27 16:30:26,345 [MARISSA] INFO: Performing clustering...[0m
+/home/cherr/mp26_27_env_py311/lib/python3.11/site-packages/sklearn/cluster/_optics.py:1083: RuntimeWarning: divide by zero encountered in divide
+  ratio = reachability_plot[:-1] / reachability_plot[1:]
+[92m2026-11-27 16:30:26,438 [MARISSA] INFO: Clustering done. Found 7 clusters[0m
+[92m2026-11-27 16:30:26,537 [MARISSA] INFO: Aligning data[0m
+[92m2026-11-27 16:30:28,632 [MARISSA] INFO: Decoding aligned data[0m
+[92m2026-11-27 16:30:28,738 [MARISSA] INFO: Getting fields for each cluster[0m
+[92m2026-11-27 16:30:28,772 [MARISSA] INFO: Merging clusters with the same field[0m
+[92m2026-11-27 16:30:28,870 [MARISSA] INFO: Merging done, 2 clusters remain[0m
+[92m2026-11-27 16:30:28,888 [MARISSA] INFO: Aligning all data[0m
+[92m2026-11-27 16:30:29,645 [MARISSA] INFO: Decoding aligned data[0m
+[92m2026-11-27 16:30:29,803 [MARISSA] INFO: Saving results to file[0m

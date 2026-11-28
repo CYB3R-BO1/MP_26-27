@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "status": "success",
+  "timed_out": false,
+  "exit_code": 0,
+  "command": [
+    "bash",
+    "-c",
+    "\n    set -euo pipefail\n    server_pid=\"\"\n    cleanup() {\n      if [ -n \"$server_pid\" ]; then\n        kill \"$server_pid\" 2>/dev/null || true\n        wait \"$server_pid\" 2>/dev/null || true\n      fi\n    }\n    trap cleanup EXIT\n    tamarin-prover-json interactive --port=3001 Tutorial.spthy &\n    server_pid=$!\n    sleep 5\n    kill -0 \"$server_pid\"\n    python examples.py\n  "
+  ],
+  "cwd": "/mnt/c/Users/cherr/Documents/PROJECTS/MP_26-27/finalization/feasibility/artifacts/Tamarin-ML-API/scripts",
+  "started_at_utc": "2026-11-27T17:25:50.426073+00:00",
+  "ended_at_utc": "2026-11-27T17:25:56.143196+00:00",
+  "timeout_seconds": 180.0,
+  "poll_seconds": 0.1,
+  "elapsed_seconds": 5.716816475000002,
+  "peak_rss_bytes": 135835648,
+  "peak_vms_bytes": 2203125469184,
+  "peak_process_count": 7,
+  "peak_sampled_cpu_percent": 0.0,
+  "observed_cpu_seconds": 1.11,
+  "average_cpu_percent_from_observed_time": 19.416400803735787,
+  "samples": 56,
+  "host": {
+    "platform": "Linux-6.18.58.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.11.18 (main, Oct 26 2026, 11:35:17) [GCC 15.3.0]",
+    "logical_cpus": 12,
+    "physical_cpus": 6,
+    "total_ram_bytes": 8141938688
+  }
+}

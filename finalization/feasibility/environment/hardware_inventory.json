@@ -1,0 +1,73 @@
+﻿{
+    "captured_at":  "2026-11-27T17:03:59.4086095Z",
+    "computer":  {
+                     "WindowsProductName":  "Windows 10 Home Single Language",
+                     "WindowsVersion":  "2009",
+                     "OsBuildNumber":  "26300",
+                     "OsArchitecture":  "64-bit",
+                     "CsSystemType":  "x64-based PC",
+                     "CsTotalPhysicalMemory":  16802918400,
+                     "CsProcessors":  [
+                                          {
+                                              "Name":  "12th Gen Intel(R) Core(TM) i5-12450H",
+                                              "Manufacturer":  "GenuineIntel",
+                                              "Description":  "Intel64 Family 6 Model 154 Stepping 3",
+                                              "Architecture":  9,
+                                              "AddressWidth":  64,
+                                              "DataWidth":  64,
+                                              "MaxClockSpeed":  2000,
+                                              "CurrentClockSpeed":  2000,
+                                              "NumberOfCores":  8,
+                                              "NumberOfLogicalProcessors":  12,
+                                              "ProcessorID":  "BFEBFBFF000906A3",
+                                              "SocketDesignation":  "U3E1",
+                                              "ProcessorType":  3,
+                                              "Role":  "CPU",
+                                              "Status":  "OK",
+                                              "CpuStatus":  1,
+                                              "Availability":  3
+                                          }
+                                      ]
+                 },
+    "cpu":  {
+                "Name":  "12th Gen Intel(R) Core(TM) i5-12450H",
+                "NumberOfCores":  8,
+                "NumberOfLogicalProcessors":  12,
+                "MaxClockSpeed":  2000
+            },
+    "memory":  {
+                   "TotalVisibleMemorySize":  16409100,
+                   "FreePhysicalMemory":  596348
+               },
+    "gpu":  [
+                {
+                    "Name":  "Intel(R) UHD Graphics",
+                    "AdapterRAM":  134217728,
+                    "DriverVersion":  "31.0.101.5186",
+                    "VideoProcessor":  "Intel(R) UHD Graphics Family"
+                },
+                {
+                    "Name":  "NVIDIA GeForce RTX 3050 A Laptop GPU",
+                    "AdapterRAM":  4292870144,
+                    "DriverVersion":  "32.0.15.9282",
+                    "VideoProcessor":  "NVIDIA GeForce RTX 3050 A Laptop GPU"
+                }
+            ],
+    "volumes":  [
+                    {
+                        "DriveLetter":  "C",
+                        "FileSystemLabel":  "Windows",
+                        "FileSystem":  "NTFS",
+                        "Size":  510725713920,
+                        "SizeRemaining":  60186628096
+                    }
+                ],
+    "nvidia_smi":  "NVIDIA GeForce RTX 3050 A Laptop GPU, 4094 MiB, 592.82",
+    "wsl":  [
+                "D\u0000e\u0000f\u0000a\u0000u\u0000l\u0000t\u0000 \u0000D\u0000i\u0000s\u0000t\u0000r\u0000i\u0000b\u0000u\u0000t\u0000i\u0000o\u0000n\u0000:\u0000 \u0000U\u0000b\u0000u\u0000n\u0000t\u0000u\u0000",
+                "\u0000",
+                "\u0000D\u0000e\u0000f\u0000a\u0000u\u0000l\u0000t\u0000 \u0000V\u0000e\u0000r\u0000s\u0000i\u0000o\u0000n\u0000:\u0000 \u00002\u0000",
+                "\u0000",
+                "\u0000"
+            ]
+}

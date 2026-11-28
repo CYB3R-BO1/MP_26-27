@@ -1,0 +1,17 @@
+maude tool: 'maude'
+ checking version: 3.5. OK.
+ checking installation: OK.
+GraphViz tool: 'dot'
+ checking version: caught exception while executing:
+dot -V
+with input: 
+Exception: 
+   dot: readCreateProcessWithExitCode: posix_spawnp: does not exist (No such file or directory)
+
+[Theory Tutorial] Theory loaded
+[Theory Tutorial] Theory translated
+[Theory Tutorial] Derivation checks started
+[Theory Tutorial] Derivation checks ended
+[Theory Tutorial] Theory closed
+[Saturating Sources] Step 1 (Max 5)
+[Saturating Sources] Done

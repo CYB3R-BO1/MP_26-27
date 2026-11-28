@@ -1,0 +1,9 @@
+maude tool: 'maude'
+ checking version: 3.5.1. OK.
+ checking installation: OK.
+[Theory 5G_xn_handover] Theory loaded
+[Theory 5G_xn_handover] Theory translated
+[Theory 5G_xn_handover] Derivation checks started
+[Theory 5G_xn_handover] Derivation checks ended
+[Theory 5G_xn_handover] Theory closed
+[Saturating Sources] Step 1 (Max 5)

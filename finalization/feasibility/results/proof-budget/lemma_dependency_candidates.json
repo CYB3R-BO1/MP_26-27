@@ -1,0 +1,694 @@
+{
+  "method": "ordered reuse-attribute candidate extraction",
+  "limitation": "Edges mean only that a prior reuse lemma is available to a later proof. They do not prove that the later proof actually used it.",
+  "models": [
+    {
+      "path": "finalization\\feasibility\\artifacts\\TamRL\\eval\\Tutorial\\original\\Tutorial.spthy",
+      "lemma_count": 4,
+      "reuse_lemma_count": 0,
+      "source_lemma_count": 0,
+      "candidate_edge_count": 0,
+      "lemmas": [
+        {
+          "name": "Client_session_key_secrecy",
+          "attributes": []
+        },
+        {
+          "name": "Client_auth",
+          "attributes": []
+        },
+        {
+          "name": "Client_auth_injective",
+          "attributes": []
+        },
+        {
+          "name": "Client_session_key_honest_setup",
+          "attributes": []
+        }
+      ],
+      "candidate_edges": []
+    },
+    {
+      "path": "finalization\\feasibility\\artifacts\\TamRL\\eval\\yubikey_hsm\\original\\yubikey_hsm.spthy",
+      "lemma_count": 4,
+      "reuse_lemma_count": 3,
+      "source_lemma_count": 0,
+      "candidate_edge_count": 6,
+      "lemmas": [
+        {
+          "name": "adv_can_guess_counter",
+          "attributes": [
+            "reuse",
+            "use_induction"
+          ]
+        },
+        {
+          "name": "otp_decode_does_not_help_adv_use_induction",
+          "attributes": [
+            "reuse",
+            "use_induction"
+          ]
+        },
+        {
+          "name": "neither_k_nor_k2_are_ever_leaked_inv",
+          "attributes": [
+            "reuse",
+            "use_induction"
+          ]
+        },
+        {
+          "name": "one_count_foreach_login",
+          "attributes": [
+            "use_induction"
+          ]
+        }
+      ],
+      "candidate_edges": [
+        {
+          "from": "adv_can_guess_counter",
+          "to": "otp_decode_does_not_help_adv_use_induction",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "adv_can_guess_counter",
+          "to": "neither_k_nor_k2_are_ever_leaked_inv",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "otp_decode_does_not_help_adv_use_induction",
+          "to": "neither_k_nor_k2_are_ever_leaked_inv",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "adv_can_guess_counter",
+          "to": "one_count_foreach_login",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "otp_decode_does_not_help_adv_use_induction",
+          "to": "one_count_foreach_login",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "neither_k_nor_k2_are_ever_leaked_inv",
+          "to": "one_count_foreach_login",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        }
+      ]
+    },
+    {
+      "path": "finalization\\feasibility\\artifacts\\TamRL\\eval\\5G_handover_xn\\base_s\\5G_handover_xn.spthy",
+      "lemma_count": 20,
+      "reuse_lemma_count": 5,
+      "source_lemma_count": 1,
+      "candidate_edge_count": 80,
+      "lemmas": [
+        {
+          "name": "GUTI_SRC",
+          "attributes": [
+            "sources"
+          ]
+        },
+        {
+          "name": "PDUorigin",
+          "attributes": [
+            "reuse",
+            "use_induction"
+          ]
+        },
+        {
+          "name": "PDUargsconstant",
+          "attributes": [
+            "reuse",
+            "use_induction"
+          ]
+        },
+        {
+          "name": "PDUidunique",
+          "attributes": [
+            "reuse",
+            "use_induction"
+          ]
+        },
+        {
+          "name": "ValueOrigin",
+          "attributes": [
+            "reuse",
+            "use_induction"
+          ]
+        },
+        {
+          "name": "ValueReset",
+          "attributes": [
+            "reuse",
+            "use_induction"
+          ]
+        },
+        {
+          "name": "executability_hkd",
+          "attributes": []
+        },
+        {
+          "name": "executability_hkd_vkd",
+          "attributes": []
+        },
+        {
+          "name": "executability_hkd_hkd",
+          "attributes": []
+        },
+        {
+          "name": "executability_hkd_hkd_hkd",
+          "attributes": []
+        },
+        {
+          "name": "executability_hkd_hkd_vkd",
+          "attributes": []
+        },
+        {
+          "name": "executability_hkd_vkd_hkd",
+          "attributes": []
+        },
+        {
+          "name": "executability_hkd_vkd_vkd",
+          "attributes": []
+        },
+        {
+          "name": "injectiveagreement_ue_tran_k_gnb",
+          "attributes": []
+        },
+        {
+          "name": "injectiveagreement_tran_ue_k_gnb",
+          "attributes": []
+        },
+        {
+          "name": "secret_supi",
+          "attributes": []
+        },
+        {
+          "name": "secret_k_seaf",
+          "attributes": []
+        },
+        {
+          "name": "secret_k_amf",
+          "attributes": []
+        },
+        {
+          "name": "secret_k_gnb",
+          "attributes": []
+        },
+        {
+          "name": "secret_k_gnb_star",
+          "attributes": []
+        }
+      ],
+      "candidate_edges": [
+        {
+          "from": "PDUorigin",
+          "to": "PDUargsconstant",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUorigin",
+          "to": "PDUidunique",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUargsconstant",
+          "to": "PDUidunique",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUorigin",
+          "to": "ValueOrigin",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUargsconstant",
+          "to": "ValueOrigin",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUidunique",
+          "to": "ValueOrigin",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUorigin",
+          "to": "ValueReset",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUargsconstant",
+          "to": "ValueReset",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUidunique",
+          "to": "ValueReset",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueOrigin",
+          "to": "ValueReset",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUorigin",
+          "to": "executability_hkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUargsconstant",
+          "to": "executability_hkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUidunique",
+          "to": "executability_hkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueOrigin",
+          "to": "executability_hkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueReset",
+          "to": "executability_hkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUorigin",
+          "to": "executability_hkd_vkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUargsconstant",
+          "to": "executability_hkd_vkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUidunique",
+          "to": "executability_hkd_vkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueOrigin",
+          "to": "executability_hkd_vkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueReset",
+          "to": "executability_hkd_vkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUorigin",
+          "to": "executability_hkd_hkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUargsconstant",
+          "to": "executability_hkd_hkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUidunique",
+          "to": "executability_hkd_hkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueOrigin",
+          "to": "executability_hkd_hkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueReset",
+          "to": "executability_hkd_hkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUorigin",
+          "to": "executability_hkd_hkd_hkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUargsconstant",
+          "to": "executability_hkd_hkd_hkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUidunique",
+          "to": "executability_hkd_hkd_hkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueOrigin",
+          "to": "executability_hkd_hkd_hkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueReset",
+          "to": "executability_hkd_hkd_hkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUorigin",
+          "to": "executability_hkd_hkd_vkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUargsconstant",
+          "to": "executability_hkd_hkd_vkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUidunique",
+          "to": "executability_hkd_hkd_vkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueOrigin",
+          "to": "executability_hkd_hkd_vkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueReset",
+          "to": "executability_hkd_hkd_vkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUorigin",
+          "to": "executability_hkd_vkd_hkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUargsconstant",
+          "to": "executability_hkd_vkd_hkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUidunique",
+          "to": "executability_hkd_vkd_hkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueOrigin",
+          "to": "executability_hkd_vkd_hkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueReset",
+          "to": "executability_hkd_vkd_hkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUorigin",
+          "to": "executability_hkd_vkd_vkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUargsconstant",
+          "to": "executability_hkd_vkd_vkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUidunique",
+          "to": "executability_hkd_vkd_vkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueOrigin",
+          "to": "executability_hkd_vkd_vkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueReset",
+          "to": "executability_hkd_vkd_vkd",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUorigin",
+          "to": "injectiveagreement_ue_tran_k_gnb",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUargsconstant",
+          "to": "injectiveagreement_ue_tran_k_gnb",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUidunique",
+          "to": "injectiveagreement_ue_tran_k_gnb",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueOrigin",
+          "to": "injectiveagreement_ue_tran_k_gnb",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueReset",
+          "to": "injectiveagreement_ue_tran_k_gnb",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUorigin",
+          "to": "injectiveagreement_tran_ue_k_gnb",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUargsconstant",
+          "to": "injectiveagreement_tran_ue_k_gnb",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUidunique",
+          "to": "injectiveagreement_tran_ue_k_gnb",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueOrigin",
+          "to": "injectiveagreement_tran_ue_k_gnb",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueReset",
+          "to": "injectiveagreement_tran_ue_k_gnb",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUorigin",
+          "to": "secret_supi",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUargsconstant",
+          "to": "secret_supi",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUidunique",
+          "to": "secret_supi",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueOrigin",
+          "to": "secret_supi",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueReset",
+          "to": "secret_supi",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUorigin",
+          "to": "secret_k_seaf",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUargsconstant",
+          "to": "secret_k_seaf",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUidunique",
+          "to": "secret_k_seaf",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueOrigin",
+          "to": "secret_k_seaf",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueReset",
+          "to": "secret_k_seaf",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUorigin",
+          "to": "secret_k_amf",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUargsconstant",
+          "to": "secret_k_amf",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUidunique",
+          "to": "secret_k_amf",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueOrigin",
+          "to": "secret_k_amf",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueReset",
+          "to": "secret_k_amf",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUorigin",
+          "to": "secret_k_gnb",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUargsconstant",
+          "to": "secret_k_gnb",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUidunique",
+          "to": "secret_k_gnb",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueOrigin",
+          "to": "secret_k_gnb",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueReset",
+          "to": "secret_k_gnb",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUorigin",
+          "to": "secret_k_gnb_star",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUargsconstant",
+          "to": "secret_k_gnb_star",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "PDUidunique",
+          "to": "secret_k_gnb_star",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueOrigin",
+          "to": "secret_k_gnb_star",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        },
+        {
+          "from": "ValueReset",
+          "to": "secret_k_gnb_star",
+          "kind": "potential_prior_reuse_lemma",
+          "confirmed_used_in_proof": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "file": "/mnt/c/Users/cherr/Documents/PROJECTS/MP_26-27/finalization/feasibility/artifacts/MARISSA/dataset/modbus_100.pcap",
+    "distance_algorithm": "SSDEEPDistance",
+    "cluster_algorithm": "OpticsAlgorithm",
+    "align_algorithm": "MafftAlgorithm",
+    "merge_algorithm": "MergeByField",
+    "clusters": 2,
+    "packet_count": 100,
+    "remove_headers": true,
+    "remove_duplicates": false,
+    "group_by_ethernet": false,
+    "slice_packet": null,
+    "ignore_noise": false,
+    "running_time": 3.472428,
+    "common_prefix": ""
+}

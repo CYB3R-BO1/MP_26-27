@@ -1,0 +1,23 @@
+27/Nov/2026:17:25:52 +0000 [Info#yesod-core] Application launched @(yesod-core-1.6.26.0-JGMfTDjrHonLV9yuVvg9VR:Yesod.Core.Dispatch src/Yesod/Core/Dispatch.hs:188:10)
+127.0.0.1 - - [27/Nov/2026:17:25:55 +0000] "GET / HTTP/1.1" 200 75 "" "python-requests/2.32.3"
+127.0.0.1 - - [27/Nov/2026:17:25:55 +0000] "GET /thy/trace/1/initialcs/Client_session_key_honest_setup HTTP/1.1" 200 337 "" "python-requests/2.32.3"
+127.0.0.1 - - [27/Nov/2026:17:25:55 +0000] "POST /thy/trace/1/executemethod/Client_session_key_honest_setup HTTP/1.1" 200 765 "" "python-requests/2.32.3"
+127.0.0.1 - - [27/Nov/2026:17:25:55 +0000] "POST /thy/trace/1/executemethod/Client_session_key_honest_setup HTTP/1.1" 200 823 "" "python-requests/2.32.3"
+127.0.0.1 - - [27/Nov/2026:17:25:55 +0000] "POST /thy/trace/1/executemethod/Client_session_key_honest_setup HTTP/1.1" 200 - "" "python-requests/2.32.3"
+127.0.0.1 - - [27/Nov/2026:17:25:55 +0000] "POST /thy/trace/1/executemethod/Client_session_key_honest_setup HTTP/1.1" 200 - "" "python-requests/2.32.3"
+127.0.0.1 - - [27/Nov/2026:17:25:55 +0000] "POST /thy/trace/1/executemethod/Client_session_key_honest_setup HTTP/1.1" 200 - "" "python-requests/2.32.3"
+127.0.0.1 - - [27/Nov/2026:17:25:55 +0000] "POST /thy/trace/1/executemethod/Client_session_key_honest_setup HTTP/1.1" 200 - "" "python-requests/2.32.3"
+127.0.0.1 - - [27/Nov/2026:17:25:55 +0000] "POST /thy/trace/1/checkproof/Client_session_key_honest_setup HTTP/1.1" 200 - "" "python-requests/2.32.3"
+===================================BFS Proof===================================
+
+================================================================================
+
+[prove_bfs] step    1: applied 'H4sIAAAAAAAAA2MEABvf' -> 1 case(s), 0 open constraint system(s)
+[prove_bfs] step    2: applied 'H4sIAAAAAAAAA2NiYoAA' -> 1 case(s), 0 open constraint system(s)
+[prove_bfs] step    3: applied 'H4sIAAAAAAAAA2NigAKm' -> 2 case(s), 0 open constraint system(s)
+[prove_bfs] step    4: applied 'H4sIAAAAAAAAA2NigAKm' -> 2 case(s), 1 open constraint system(s)
+[prove_bfs] step    5: applied 'H4sIAAAAAAAAA2NigAKm' -> 1 case(s), 0 open constraint system(s)
+[prove_bfs] step    6: applied 'H4sIAAAAAAAAA2NigAKm' -> 1 case(s), 0 open constraint system(s)
+[prove_bfs] Proof complete in 6 step(s).
+Checking proof for lemma 'Client_session_key_honest_setup'...
+Proof status: TraceFound

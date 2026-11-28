@@ -1,0 +1,9 @@
+run,protocol,sample_size_label,repetition,status,exit_code,elapsed_seconds,peak_rss_mib,peak_vms_mib,peak_sampled_cpu_percent,average_cpu_percent,packet_count,clusters,tool_reported_running_time,common_prefix_hex_chars,distance_algorithm,cluster_algorithm,align_algorithm
+dns_1000_r1,dns,1000,1,success,0,100.943451,561.137,1372.125,16570.800,0.000,1000,14,92.936515,0,SSDEEPDistance,OpticsAlgorithm,MafftAlgorithm
+dns_100_r1,dns,100,1,success,0,12.037861,242.727,957.102,296.200,0.000,100,10,7.249741,0,SSDEEPDistance,OpticsAlgorithm,MafftAlgorithm
+dns_100_r2,dns,100,2,success,0,11.261477,242.648,957.082,305.800,0.000,100,10,8.022935,0,SSDEEPDistance,OpticsAlgorithm,MafftAlgorithm
+dns_100_r3,dns,100,3,success,0,11.914552,243.211,957.094,393.500,0.000,100,10,8.628382,0,SSDEEPDistance,OpticsAlgorithm,MafftAlgorithm
+dns_500_r1,dns,500,1,success,0,51.870390,457.977,1208.562,297.100,0.000,500,11,46.370355,0,SSDEEPDistance,OpticsAlgorithm,MafftAlgorithm
+modbus_1000_r1,modbus,1000,1,success,0,38.427042,260.031,1070.051,425.900,0.000,1000,4,34.376132,0,SSDEEPDistance,OpticsAlgorithm,MafftAlgorithm
+modbus_100_r1,modbus,100,1,success,0,6.485227,234.160,950.734,396.400,0.000,100,2,3.472428,0,SSDEEPDistance,OpticsAlgorithm,MafftAlgorithm
+modbus_500_r1,modbus,500,1,success,0,19.283922,248.129,993.988,365.400,0.000,500,7,15.4973,0,SSDEEPDistance,OpticsAlgorithm,MafftAlgorithm

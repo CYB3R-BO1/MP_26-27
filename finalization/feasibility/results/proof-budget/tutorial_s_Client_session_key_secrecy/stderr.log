@@ -1,0 +1,10 @@
+maude tool: 'maude'
+ checking version: 3.5.1. OK.
+ checking installation: OK.
+[Theory Tutorial] Theory loaded
+[Theory Tutorial] Theory translated
+[Theory Tutorial] Derivation checks started
+[Theory Tutorial] Derivation checks ended
+[Theory Tutorial] Theory closed
+[Saturating Sources] Step 1 (Max 5)
+[Saturating Sources] Done

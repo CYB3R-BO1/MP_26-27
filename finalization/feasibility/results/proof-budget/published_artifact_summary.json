@@ -1,0 +1,902 @@
+{
+  "provenance": "PUBLISHED_TAMRL_ARTIFACT_NOT_LOCALLY_REPRODUCED",
+  "archive_bytes": 29662170,
+  "extracted_file_count": 4401,
+  "extracted_bytes": 358175940,
+  "proof_tree_file_count": 4354,
+  "proof_tree_bytes": 357224032,
+  "best": {
+    "run_count": 16,
+    "lemma_entries": 212,
+    "completed_lemma_entries": 175,
+    "max_reported_first_completion_seconds": 155934.1,
+    "num_envs_values": [
+      8,
+      16
+    ],
+    "cache_max_memory_mb_values": [
+      100000
+    ],
+    "search_budget_values": [
+      1000,
+      1500,
+      2000,
+      5000,
+      12000
+    ],
+    "runs": [
+      {
+        "run_id": "tdqdn830",
+        "protocols": [
+          "5gs_to_eps_over_n26_handover"
+        ],
+        "lemma_entries": 8,
+        "completed_lemma_entries": 8,
+        "max_first_completion_seconds": 205.3,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "4eodfgj0",
+        "protocols": [
+          "UM_PFS"
+        ],
+        "lemma_entries": 2,
+        "completed_lemma_entries": 2,
+        "max_first_completion_seconds": 18.0,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "yyo0w0z8",
+        "protocols": [
+          "Yubikey"
+        ],
+        "lemma_entries": 4,
+        "completed_lemma_entries": 2,
+        "max_first_completion_seconds": 142.7,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "pxnbgk24",
+        "protocols": [
+          "composition_spdm"
+        ],
+        "lemma_entries": 49,
+        "completed_lemma_entries": 37,
+        "max_first_completion_seconds": 64056.3,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 2000
+      },
+      {
+        "run_id": "i3jj6gjs",
+        "protocols": [
+          "PKCS11_aead"
+        ],
+        "lemma_entries": 4,
+        "completed_lemma_entries": 4,
+        "max_first_completion_seconds": 1517.1,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1500
+      },
+      {
+        "run_id": "sbfe1j2p",
+        "protocols": [
+          "wpa2_four_way_handshake"
+        ],
+        "lemma_entries": 85,
+        "completed_lemma_entries": 73,
+        "max_first_completion_seconds": 46524.6,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1500
+      },
+      {
+        "run_id": "jhy0vl8l",
+        "protocols": [
+          "YubikeyHSM"
+        ],
+        "lemma_entries": 4,
+        "completed_lemma_entries": 4,
+        "max_first_completion_seconds": 48.8,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "y6nn8shs",
+        "protocols": [
+          "NAXOS_eCK_PFS"
+        ],
+        "lemma_entries": 1,
+        "completed_lemma_entries": 1,
+        "max_first_completion_seconds": 21.9,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "gagnpc8z",
+        "protocols": [
+          "SignalRevealing"
+        ],
+        "lemma_entries": 5,
+        "completed_lemma_entries": 5,
+        "max_first_completion_seconds": 6599.0,
+        "num_envs": 16,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 12000
+      },
+      {
+        "run_id": "759gi2tn",
+        "protocols": [
+          "NAXOS_eCK"
+        ],
+        "lemma_entries": 1,
+        "completed_lemma_entries": 1,
+        "max_first_completion_seconds": 190.7,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "yhwcstpp",
+        "protocols": [
+          "FOO_Eligibility"
+        ],
+        "lemma_entries": 3,
+        "completed_lemma_entries": 3,
+        "max_first_completion_seconds": 31.4,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "9agfdtxf",
+        "protocols": [
+          "5G_aka_fix"
+        ],
+        "lemma_entries": 13,
+        "completed_lemma_entries": 13,
+        "max_first_completion_seconds": 155934.1,
+        "num_envs": 16,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 5000
+      },
+      {
+        "run_id": "jo8fqebc",
+        "protocols": [
+          "wireguard"
+        ],
+        "lemma_entries": 8,
+        "completed_lemma_entries": 8,
+        "max_first_completion_seconds": 310.2,
+        "num_envs": 16,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1500
+      },
+      {
+        "run_id": "r5b95ap7",
+        "protocols": [
+          "KAS2_eCK"
+        ],
+        "lemma_entries": 1,
+        "completed_lemma_entries": 1,
+        "max_first_completion_seconds": 32.5,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "ypajosja",
+        "protocols": [
+          "5G_xn_handover"
+        ],
+        "lemma_entries": 20,
+        "completed_lemma_entries": 9,
+        "max_first_completion_seconds": 16546.9,
+        "num_envs": 16,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 5000
+      },
+      {
+        "run_id": "0liid8bz",
+        "protocols": [
+          "Tutorial"
+        ],
+        "lemma_entries": 4,
+        "completed_lemma_entries": 4,
+        "max_first_completion_seconds": 17.5,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      }
+    ]
+  },
+  "others": {
+    "run_count": 52,
+    "lemma_entries": 861,
+    "completed_lemma_entries": 618,
+    "max_reported_first_completion_seconds": 160178.9,
+    "num_envs_values": [
+      8,
+      16
+    ],
+    "cache_max_memory_mb_values": [
+      100000
+    ],
+    "search_budget_values": [
+      1000,
+      1500,
+      2000,
+      5000
+    ],
+    "runs": [
+      {
+        "run_id": "18er30j7",
+        "protocols": [
+          "Yubikey"
+        ],
+        "lemma_entries": 4,
+        "completed_lemma_entries": 2,
+        "max_first_completion_seconds": 969.2,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "b8fnpyvq",
+        "protocols": [
+          "NAXOS_eCK"
+        ],
+        "lemma_entries": 1,
+        "completed_lemma_entries": 1,
+        "max_first_completion_seconds": 303.5,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "65i5sh5z",
+        "protocols": [
+          "SignalRevealing"
+        ],
+        "lemma_entries": 5,
+        "completed_lemma_entries": 4,
+        "max_first_completion_seconds": 492.2,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "kd36bt15",
+        "protocols": [
+          "FOO_Eligibility"
+        ],
+        "lemma_entries": 3,
+        "completed_lemma_entries": 3,
+        "max_first_completion_seconds": 54.7,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "8i2c7hfr",
+        "protocols": [
+          "5G_xn_handover"
+        ],
+        "lemma_entries": 20,
+        "completed_lemma_entries": 6,
+        "max_first_completion_seconds": 2105.5,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "83zutrdx",
+        "protocols": [
+          "5G_aka_fix"
+        ],
+        "lemma_entries": 13,
+        "completed_lemma_entries": 9,
+        "max_first_completion_seconds": 675.8,
+        "num_envs": 16,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 5000
+      },
+      {
+        "run_id": "hofy0e2o",
+        "protocols": [
+          "wireguard"
+        ],
+        "lemma_entries": 8,
+        "completed_lemma_entries": 6,
+        "max_first_completion_seconds": 1651.0,
+        "num_envs": 16,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 2000
+      },
+      {
+        "run_id": "ctshxy1u",
+        "protocols": [
+          "SignalRevealing"
+        ],
+        "lemma_entries": 5,
+        "completed_lemma_entries": 3,
+        "max_first_completion_seconds": 782.5,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "mkj2gjqw",
+        "protocols": [
+          "PKCS11_aead"
+        ],
+        "lemma_entries": 4,
+        "completed_lemma_entries": 3,
+        "max_first_completion_seconds": 56.0,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "w875aa8q",
+        "protocols": [
+          "wireguard"
+        ],
+        "lemma_entries": 8,
+        "completed_lemma_entries": 3,
+        "max_first_completion_seconds": 7734.6,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "hvq0pi4b",
+        "protocols": [
+          "YubikeyHSM"
+        ],
+        "lemma_entries": 4,
+        "completed_lemma_entries": 3,
+        "max_first_completion_seconds": 29.3,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "xkblgi3o",
+        "protocols": [
+          "YubikeyHSM"
+        ],
+        "lemma_entries": 4,
+        "completed_lemma_entries": 4,
+        "max_first_completion_seconds": 100.5,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "hohht0az",
+        "protocols": [
+          "PKCS11_aead"
+        ],
+        "lemma_entries": 4,
+        "completed_lemma_entries": 4,
+        "max_first_completion_seconds": 3056.9,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1500
+      },
+      {
+        "run_id": "yp62pk1n",
+        "protocols": [
+          "5gs_to_eps_over_n26_handover"
+        ],
+        "lemma_entries": 8,
+        "completed_lemma_entries": 7,
+        "max_first_completion_seconds": 823.1,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "k9y5k4jd",
+        "protocols": [
+          "Tutorial"
+        ],
+        "lemma_entries": 4,
+        "completed_lemma_entries": 4,
+        "max_first_completion_seconds": 22.4,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "e0vj4c1r",
+        "protocols": [
+          "5G_xn_handover"
+        ],
+        "lemma_entries": 20,
+        "completed_lemma_entries": 9,
+        "max_first_completion_seconds": 55897.4,
+        "num_envs": 16,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 5000
+      },
+      {
+        "run_id": "m668qd6w",
+        "protocols": [
+          "FOO_Eligibility"
+        ],
+        "lemma_entries": 3,
+        "completed_lemma_entries": 3,
+        "max_first_completion_seconds": 44.9,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "nzoke40e",
+        "protocols": [
+          "PKCS11_aead"
+        ],
+        "lemma_entries": 4,
+        "completed_lemma_entries": 4,
+        "max_first_completion_seconds": 3683.1,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1500
+      },
+      {
+        "run_id": "na57pv3l",
+        "protocols": [
+          "YubikeyHSM"
+        ],
+        "lemma_entries": 4,
+        "completed_lemma_entries": 4,
+        "max_first_completion_seconds": 187.9,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "6cd15alf",
+        "protocols": [
+          "wpa2_four_way_handshake"
+        ],
+        "lemma_entries": 85,
+        "completed_lemma_entries": 67,
+        "max_first_completion_seconds": 49667.2,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1500
+      },
+      {
+        "run_id": "sulwwi5v",
+        "protocols": [
+          "PKCS11_aead"
+        ],
+        "lemma_entries": 4,
+        "completed_lemma_entries": 3,
+        "max_first_completion_seconds": 158.2,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "k1dap7dt",
+        "protocols": [
+          "Yubikey"
+        ],
+        "lemma_entries": 4,
+        "completed_lemma_entries": 2,
+        "max_first_completion_seconds": 636.0,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "1ew8l7qd",
+        "protocols": [
+          "composition_spdm"
+        ],
+        "lemma_entries": 49,
+        "completed_lemma_entries": 28,
+        "max_first_completion_seconds": 23467.2,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 2000
+      },
+      {
+        "run_id": "gdi1tkix",
+        "protocols": [
+          "wpa2_four_way_handshake"
+        ],
+        "lemma_entries": 85,
+        "completed_lemma_entries": 67,
+        "max_first_completion_seconds": 11489.7,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1500
+      },
+      {
+        "run_id": "j8yllws9",
+        "protocols": [
+          "wpa2_four_way_handshake"
+        ],
+        "lemma_entries": 85,
+        "completed_lemma_entries": 73,
+        "max_first_completion_seconds": 145826.7,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "c1wwjd89",
+        "protocols": [
+          "5G_aka_fix"
+        ],
+        "lemma_entries": 13,
+        "completed_lemma_entries": 8,
+        "max_first_completion_seconds": 9638.4,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "hhv6m2wy",
+        "protocols": [
+          "PKCS11_aead"
+        ],
+        "lemma_entries": 4,
+        "completed_lemma_entries": 3,
+        "max_first_completion_seconds": 86.4,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "u321djd3",
+        "protocols": [
+          "wpa2_four_way_handshake"
+        ],
+        "lemma_entries": 85,
+        "completed_lemma_entries": 73,
+        "max_first_completion_seconds": 160178.9,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "cfsu52ud",
+        "protocols": [
+          "PKCS11_aead"
+        ],
+        "lemma_entries": 4,
+        "completed_lemma_entries": 4,
+        "max_first_completion_seconds": 3363.9,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1500
+      },
+      {
+        "run_id": "91lvfde6",
+        "protocols": [
+          "5G_aka_fix"
+        ],
+        "lemma_entries": 13,
+        "completed_lemma_entries": 12,
+        "max_first_completion_seconds": 133609.6,
+        "num_envs": 16,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 5000
+      },
+      {
+        "run_id": "r1h2clxf",
+        "protocols": [
+          "NAXOS_eCK_PFS"
+        ],
+        "lemma_entries": 1,
+        "completed_lemma_entries": 1,
+        "max_first_completion_seconds": 116.9,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "tpr3vbnu",
+        "protocols": [
+          "UM_PFS"
+        ],
+        "lemma_entries": 2,
+        "completed_lemma_entries": 2,
+        "max_first_completion_seconds": 23.3,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "ph9iukw9",
+        "protocols": [
+          "5G_aka_fix"
+        ],
+        "lemma_entries": 13,
+        "completed_lemma_entries": 8,
+        "max_first_completion_seconds": 8800.0,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "fd565k07",
+        "protocols": [
+          "5G_xn_handover"
+        ],
+        "lemma_entries": 20,
+        "completed_lemma_entries": 8,
+        "max_first_completion_seconds": 19445.4,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1500
+      },
+      {
+        "run_id": "kyu1grlw",
+        "protocols": [
+          "YubikeyHSM"
+        ],
+        "lemma_entries": 4,
+        "completed_lemma_entries": 4,
+        "max_first_completion_seconds": 53.4,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "h3trikug",
+        "protocols": [
+          "5G_aka_fix"
+        ],
+        "lemma_entries": 13,
+        "completed_lemma_entries": 11,
+        "max_first_completion_seconds": 71305.9,
+        "num_envs": 16,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 5000
+      },
+      {
+        "run_id": "mtn515qp",
+        "protocols": [
+          "5G_aka_fix"
+        ],
+        "lemma_entries": 13,
+        "completed_lemma_entries": 9,
+        "max_first_completion_seconds": 12049.3,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "3b0lkai0",
+        "protocols": [
+          "PKCS11_aead"
+        ],
+        "lemma_entries": 4,
+        "completed_lemma_entries": 3,
+        "max_first_completion_seconds": 69.3,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "hp9gc3zc",
+        "protocols": [
+          "5G_xn_handover"
+        ],
+        "lemma_entries": 20,
+        "completed_lemma_entries": 6,
+        "max_first_completion_seconds": 46948.5,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1500
+      },
+      {
+        "run_id": "5v6zv1pt",
+        "protocols": [
+          "Tutorial"
+        ],
+        "lemma_entries": 4,
+        "completed_lemma_entries": 4,
+        "max_first_completion_seconds": 17.8,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "2yno892k",
+        "protocols": [
+          "wireguard"
+        ],
+        "lemma_entries": 8,
+        "completed_lemma_entries": 6,
+        "max_first_completion_seconds": 4808.1,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "m8qc6dhv",
+        "protocols": [
+          "UM_PFS"
+        ],
+        "lemma_entries": 2,
+        "completed_lemma_entries": 2,
+        "max_first_completion_seconds": 23.4,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "jazndlcn",
+        "protocols": [
+          "composition_spdm"
+        ],
+        "lemma_entries": 49,
+        "completed_lemma_entries": 20,
+        "max_first_completion_seconds": 15198.5,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 2000
+      },
+      {
+        "run_id": "1ayz9k8t",
+        "protocols": [
+          "5G_xn_handover"
+        ],
+        "lemma_entries": 20,
+        "completed_lemma_entries": 9,
+        "max_first_completion_seconds": 45173.9,
+        "num_envs": 16,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 5000
+      },
+      {
+        "run_id": "ddqcjcfz",
+        "protocols": [
+          "YubikeyHSM"
+        ],
+        "lemma_entries": 4,
+        "completed_lemma_entries": 4,
+        "max_first_completion_seconds": 51.1,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "nkquxw2y",
+        "protocols": [
+          "5G_xn_handover"
+        ],
+        "lemma_entries": 20,
+        "completed_lemma_entries": 8,
+        "max_first_completion_seconds": 122269.4,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "xws2i14m",
+        "protocols": [
+          "YubikeyHSM"
+        ],
+        "lemma_entries": 4,
+        "completed_lemma_entries": 4,
+        "max_first_completion_seconds": 94.3,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "1c0708qt",
+        "protocols": [
+          "Yubikey"
+        ],
+        "lemma_entries": 4,
+        "completed_lemma_entries": 1,
+        "max_first_completion_seconds": 31.2,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "rzml3rg5",
+        "protocols": [
+          "SignalRevealing"
+        ],
+        "lemma_entries": 5,
+        "completed_lemma_entries": 4,
+        "max_first_completion_seconds": 468.3,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "bwakrqb7",
+        "protocols": [
+          "wpa2_four_way_handshake"
+        ],
+        "lemma_entries": 85,
+        "completed_lemma_entries": 73,
+        "max_first_completion_seconds": 154238.1,
+        "num_envs": 16,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "9nwl79ls",
+        "protocols": [
+          "KAS2_eCK"
+        ],
+        "lemma_entries": 1,
+        "completed_lemma_entries": 1,
+        "max_first_completion_seconds": 54.8,
+        "num_envs": 8,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1000
+      },
+      {
+        "run_id": "j4zf4k0k",
+        "protocols": [
+          "wireguard"
+        ],
+        "lemma_entries": 8,
+        "completed_lemma_entries": 8,
+        "max_first_completion_seconds": 2020.4,
+        "num_envs": 16,
+        "cache_max_memory_mb": 100000,
+        "search_budget": 1500
+      }
+    ]
+  },
+  "tamarin": {
+    "protocol_count": 16,
+    "protocols": [
+      "5G_AKA",
+      "5G_handover_5gs_to_eps",
+      "5G_handover_xn",
+      "KAS2",
+      "Naxos",
+      "Naxos_non_pfs",
+      "Tutorial",
+      "UM",
+      "foo",
+      "gcm",
+      "signal_looping_for_good",
+      "spdm",
+      "wireguard",
+      "wpa2",
+      "yubikey",
+      "yubikey_hsm"
+    ],
+    "csv_count": 39,
+    "csv_count_by_variant": {
+      "base_c": 16,
+      "base_s": 7,
+      "original": 16
+    },
+    "lemma_rows": 612,
+    "outcomes": {
+      "False": 17,
+      "True": 398,
+      "timeout": 197
+    },
+    "sum_recorded_lemma_seconds": 2460509.606440544,
+    "sum_recorded_lemma_hours": 683.4748906779289
+  }
+}
