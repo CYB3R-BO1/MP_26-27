@@ -1,0 +1,29 @@
+{
+  "source_url": "https://zenodo.org/api/records/20001206/files/organization-x.zip/content",
+  "manifest": "finalization\\preempt-waf\\feasibility\\results\\webserver_orgx_remote_manifest.json",
+  "match": "ground-truth/organization-x\\.yaml$|apache2/web-access\\.log$|apache2/web-access\\.log\\.1$",
+  "selected_count": 3,
+  "outputs": [
+    {
+      "name": "organization-x/ground-truth/organization-x.yaml",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx-core\\organization-x\\ground-truth\\organization-x.yaml",
+      "compressed_bytes_fetched": 857,
+      "uncompressed_bytes_written": 5083,
+      "crc32": "2a4f3c8f"
+    },
+    {
+      "name": "organization-x/log/apache2/web-access.log",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx-core\\organization-x\\log\\apache2\\web-access.log",
+      "compressed_bytes_fetched": 35904,
+      "uncompressed_bytes_written": 842442,
+      "crc32": "123c4d01"
+    },
+    {
+      "name": "organization-x/log/apache2/web-access.log.1",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx-core\\organization-x\\log\\apache2\\web-access.log.1",
+      "compressed_bytes_fetched": 169725,
+      "uncompressed_bytes_written": 3731566,
+      "crc32": "7bcb49cd"
+    }
+  ]
+}

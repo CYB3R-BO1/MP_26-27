@@ -1,0 +1,50 @@
+{
+  "source_url": "https://zenodo.org/api/records/19483937/files/santos_no-pcaps.zip/content",
+  "manifest": "finalization\\preempt-waf\\feasibility\\results\\santos_no-pcaps_remote_manifest.json",
+  "match": "^gather/intranet_server/logs/apache2/.*access\\.log(\\.\\d+)?$|^labels/intranet_server/logs/apache2/.*access\\.log\\.\\d+$",
+  "selected_count": 6,
+  "outputs": [
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.smith.santos.com-access.log",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-santos-selected\\gather\\intranet_server\\logs\\apache2\\intranet.smith.santos.com-access.log",
+      "compressed_bytes_fetched": 59230,
+      "uncompressed_bytes_written": 1772221,
+      "crc32": "80601b9b"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.smith.santos.com-access.log.1",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-santos-selected\\gather\\intranet_server\\logs\\apache2\\intranet.smith.santos.com-access.log.1",
+      "compressed_bytes_fetched": 25577,
+      "uncompressed_bytes_written": 575973,
+      "crc32": "9268dbfe"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.smith.santos.com-access.log.3",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-santos-selected\\gather\\intranet_server\\logs\\apache2\\intranet.smith.santos.com-access.log.3",
+      "compressed_bytes_fetched": 26284,
+      "uncompressed_bytes_written": 633129,
+      "crc32": "e46db14a"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.smith.santos.com-access.log.2",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-santos-selected\\gather\\intranet_server\\logs\\apache2\\intranet.smith.santos.com-access.log.2",
+      "compressed_bytes_fetched": 16889,
+      "uncompressed_bytes_written": 433706,
+      "crc32": "44db3f4f"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/other_vhosts_access.log",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-santos-selected\\gather\\intranet_server\\logs\\apache2\\other_vhosts_access.log",
+      "compressed_bytes_fetched": 0,
+      "uncompressed_bytes_written": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/access.log",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-santos-selected\\gather\\intranet_server\\logs\\apache2\\access.log",
+      "compressed_bytes_fetched": 0,
+      "uncompressed_bytes_written": 0,
+      "crc32": "00000000"
+    }
+  ]
+}

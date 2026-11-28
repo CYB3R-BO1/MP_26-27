@@ -1,0 +1,22 @@
+{
+  "source_url": "https://zenodo.org/api/records/8263181/files/ait_ads.zip/content",
+  "manifest": "finalization\\preempt-waf\\feasibility\\results\\ait_ads_remote_manifest.json",
+  "match": "^russellmitchell_(aminer|wazuh)\\.json$",
+  "selected_count": 2,
+  "outputs": [
+    {
+      "name": "russellmitchell_aminer.json",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-alert-russellmitchell-selected\\russellmitchell_aminer.json",
+      "compressed_bytes_fetched": 89364,
+      "uncompressed_bytes_written": 3411024,
+      "crc32": "824847fe"
+    },
+    {
+      "name": "russellmitchell_wazuh.json",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-alert-russellmitchell-selected\\russellmitchell_wazuh.json",
+      "compressed_bytes_fetched": 1713409,
+      "uncompressed_bytes_written": 45282051,
+      "crc32": "839c7598"
+    }
+  ]
+}

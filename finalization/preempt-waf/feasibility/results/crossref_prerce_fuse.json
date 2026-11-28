@@ -1,0 +1,723 @@
+﻿{
+    "indexed":  {
+                    "date-parts":  [
+                                       [
+                                           2026,
+                                           11,
+                                           27
+                                       ]
+                                   ],
+                    "date-time":  "2026-11-27T18:18:00Z",
+                    "timestamp":  1795803480337,
+                    "version":  "4.11.3"
+                },
+    "reference-count":  31,
+    "publisher":  "Elsevier BV",
+    "license":  [
+                    {
+                        "start":  {
+                                      "date-parts":  [
+                                                         [
+                                                             2027,
+                                                             5,
+                                                             1
+                                                         ]
+                                                     ],
+                                      "date-time":  "2027-05-01T00:00:00Z",
+                                      "timestamp":  1809129600000
+                                  },
+                        "content-version":  "tdm",
+                        "delay-in-days":  0,
+                        "URL":  "https://www.elsevier.com/tdm/userlicense/1.0/"
+                    },
+                    {
+                        "start":  {
+                                      "date-parts":  [
+                                                         [
+                                                             2027,
+                                                             5,
+                                                             1
+                                                         ]
+                                                     ],
+                                      "date-time":  "2027-05-01T00:00:00Z",
+                                      "timestamp":  1809129600000
+                                  },
+                        "content-version":  "tdm",
+                        "delay-in-days":  0,
+                        "URL":  "https://www.elsevier.com/legal/tdmrep-license"
+                    },
+                    {
+                        "start":  {
+                                      "date-parts":  [
+                                                         [
+                                                             2027,
+                                                             5,
+                                                             1
+                                                         ]
+                                                     ],
+                                      "date-time":  "2027-05-01T00:00:00Z",
+                                      "timestamp":  1809129600000
+                                  },
+                        "content-version":  "stm-asf",
+                        "delay-in-days":  0,
+                        "URL":  "https://doi.org/10.15223/policy-017"
+                    },
+                    {
+                        "start":  {
+                                      "date-parts":  [
+                                                         [
+                                                             2027,
+                                                             5,
+                                                             1
+                                                         ]
+                                                     ],
+                                      "date-time":  "2027-05-01T00:00:00Z",
+                                      "timestamp":  1809129600000
+                                  },
+                        "content-version":  "stm-asf",
+                        "delay-in-days":  0,
+                        "URL":  "https://doi.org/10.15223/policy-037"
+                    },
+                    {
+                        "start":  {
+                                      "date-parts":  [
+                                                         [
+                                                             2027,
+                                                             5,
+                                                             1
+                                                         ]
+                                                     ],
+                                      "date-time":  "2027-05-01T00:00:00Z",
+                                      "timestamp":  1809129600000
+                                  },
+                        "content-version":  "stm-asf",
+                        "delay-in-days":  0,
+                        "URL":  "https://doi.org/10.15223/policy-012"
+                    },
+                    {
+                        "start":  {
+                                      "date-parts":  [
+                                                         [
+                                                             2027,
+                                                             5,
+                                                             1
+                                                         ]
+                                                     ],
+                                      "date-time":  "2027-05-01T00:00:00Z",
+                                      "timestamp":  1809129600000
+                                  },
+                        "content-version":  "stm-asf",
+                        "delay-in-days":  0,
+                        "URL":  "https://doi.org/10.15223/policy-029"
+                    },
+                    {
+                        "start":  {
+                                      "date-parts":  [
+                                                         [
+                                                             2027,
+                                                             5,
+                                                             1
+                                                         ]
+                                                     ],
+                                      "date-time":  "2027-05-01T00:00:00Z",
+                                      "timestamp":  1809129600000
+                                  },
+                        "content-version":  "stm-asf",
+                        "delay-in-days":  0,
+                        "URL":  "https://doi.org/10.15223/policy-004"
+                    }
+                ],
+    "funder":  [
+                   {
+                       "DOI":  "10.13039/501100004242",
+                       "name":  "Princess Nourah bint Abdulrahman University",
+                       "doi-asserted-by":  "publisher",
+                       "award":  [
+                                     "PNURSP2026R701"
+                                 ],
+                       "award-info":  [
+                                          {
+                                              "award-number":  [
+                                                                   "PNURSP2026R701"
+                                                               ]
+                                          }
+                                      ],
+                       "id":  [
+                                  {
+                                      "id":  "10.13039/501100004242",
+                                      "id-type":  "DOI",
+                                      "asserted-by":  "publisher"
+                                  }
+                              ]
+                   },
+                   {
+                       "DOI":  "10.13039/100019224",
+                       "name":  "King Faisal University",
+                       "doi-asserted-by":  "publisher",
+                       "id":  [
+                                  {
+                                      "id":  "10.13039/100019224",
+                                      "id-type":  "DOI",
+                                      "asserted-by":  "publisher"
+                                  }
+                              ]
+                   },
+                   {
+                       "DOI":  "10.13039/501100020912",
+                       "name":  "King Faisal University",
+                       "doi-asserted-by":  "publisher",
+                       "award":  [
+                                     "KFU265485"
+                                 ],
+                       "award-info":  [
+                                          {
+                                              "award-number":  [
+                                                                   "KFU265485"
+                                                               ]
+                                          }
+                                      ],
+                       "id":  [
+                                  {
+                                      "id":  "10.13039/501100020912",
+                                      "id-type":  "DOI",
+                                      "asserted-by":  "publisher"
+                                  }
+                              ]
+                   }
+               ],
+    "content-domain":  {
+                           "domain":  [
+                                          "elsevier.com",
+                                          "sciencedirect.com"
+                                      ],
+                           "crossmark-restriction":  true
+                       },
+    "short-container-title":  [
+                                  "Journal of Computational and Applied Mathematics"
+                              ],
+    "published-print":  {
+                            "date-parts":  [
+                                               [
+                                                   2027,
+                                                   5
+                                               ]
+                                           ]
+                        },
+    "DOI":  "10.1016/j.cam.2026.118302",
+    "type":  "journal-article",
+    "created":  {
+                    "date-parts":  [
+                                       [
+                                           2026,
+                                           11,
+                                           5
+                                       ]
+                                   ],
+                    "date-time":  "2026-11-05T00:24:23Z",
+                    "timestamp":  1793838263000
+                },
+    "page":  "118302",
+    "update-policy":  "https://doi.org/10.1016/elsevier_cm_policy",
+    "source":  "Crossref",
+    "is-referenced-by-count":  0,
+    "special_numbering":  "C",
+    "title":  [
+                  "Reliability-weighted Bayesian evidence fusion for calibrated pre-exploitation risk forecasting"
+              ],
+    "prefix":  "10.1016",
+    "volume":  "495",
+    "author":  [
+                   {
+                       "ORCID":  "https://orcid.org/0000-0002-8905-7294",
+                       "authenticated-orcid":  false,
+                       "given":  "Saad",
+                       "family":  "Arif",
+                       "sequence":  "first",
+                       "affiliation":  [
+
+                                       ],
+                       "role":  [
+                                    {
+                                        "vocabulary":  "crossref",
+                                        "role":  "author"
+                                    }
+                                ]
+                   },
+                   {
+                       "ORCID":  "https://orcid.org/0000-0002-8094-7573",
+                       "authenticated-orcid":  false,
+                       "given":  "Osama",
+                       "family":  "Khan",
+                       "sequence":  "additional",
+                       "affiliation":  [
+
+                                       ],
+                       "role":  [
+                                    {
+                                        "vocabulary":  "crossref",
+                                        "role":  "author"
+                                    }
+                                ]
+                   },
+                   {
+                       "ORCID":  "https://orcid.org/0000-0001-9032-2748",
+                       "authenticated-orcid":  false,
+                       "given":  "Afnan",
+                       "family":  "Almegren",
+                       "sequence":  "additional",
+                       "affiliation":  [
+
+                                       ],
+                       "role":  [
+                                    {
+                                        "vocabulary":  "crossref",
+                                        "role":  "author"
+                                    }
+                                ]
+                   },
+                   {
+                       "ORCID":  "https://orcid.org/0000-0002-7264-7941",
+                       "authenticated-orcid":  false,
+                       "given":  "Areej",
+                       "family":  "Fatima",
+                       "sequence":  "additional",
+                       "affiliation":  [
+
+                                       ],
+                       "role":  [
+                                    {
+                                        "vocabulary":  "crossref",
+                                        "role":  "author"
+                                    }
+                                ]
+                   }
+               ],
+    "member":  "78",
+    "reference":  [
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0001",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "51",
+                          "DOI":  "10.1186/s42400-025-00475-1",
+                          "article-title":  "Enhancing early detection and accuracy in image-based network intrusion detection systems",
+                          "volume":  "9",
+                          "author":  "Abo-Alian",
+                          "year":  "2026",
+                          "journal-title":  "Cybersecurity"
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0002",
+                          "article-title":  "Network intrusion detection system: a systematic study of machine learning and deep learning approaches",
+                          "volume":  "32",
+                          "author":  "Ahmad",
+                          "year":  "2021",
+                          "journal-title":  "Trans. Emerg. Telecommun. Technol."
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0003",
+                          "doi-asserted-by":  "crossref",
+                          "DOI":  "10.1038/s41598-024-62435-y",
+                          "article-title":  "Ensemble technique of intrusion detection for IoT-edge platform",
+                          "volume":  "14",
+                          "author":  "Aldaej",
+                          "year":  "2024",
+                          "journal-title":  "Sci. Rep."
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0004",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "2367",
+                          "DOI":  "10.3390/e17042367",
+                          "article-title":  "An entropy-based network anomaly detection method",
+                          "volume":  "17",
+                          "author":  "Bereziński",
+                          "year":  "2015",
+                          "journal-title":  "Entropy"
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0005",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "1153",
+                          "DOI":  "10.1109/COMST.2015.2494502",
+                          "article-title":  "A survey of data mining and machine learning methods for cyber security intrusion detection",
+                          "volume":  "18",
+                          "author":  "Buczak",
+                          "year":  "2016",
+                          "journal-title":  "IEEE Commun. Surv. Tutor."
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0006",
+                          "series-title":  "Proceedings of the 23rd International Conference on Machine Learning",
+                          "first-page":  "233",
+                          "article-title":  "The relationship between precision-recall and ROC curves",
+                          "author":  "Davis",
+                          "year":  "2006"
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0007",
+                          "article-title":  "Deep learning for cyber security intrusion detection: approaches, datasets, and comparative study",
+                          "volume":  "50",
+                          "author":  "Ferrag",
+                          "year":  "2020",
+                          "journal-title":  "J. Inf. Secur. Appl."
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0008",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "44",
+                          "DOI":  "10.1145/2523813",
+                          "article-title":  "A survey on concept drift adaptation",
+                          "volume":  "46",
+                          "author":  "Gama",
+                          "year":  "2014",
+                          "journal-title":  "ACM Comput. Surv."
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0009",
+                          "doi-asserted-by":  "crossref",
+                          "DOI":  "10.1016/j.jnca.2020.102767",
+                          "article-title":  "Deep learning methods in network intrusion detection: a survey and an objective comparison",
+                          "volume":  "169",
+                          "author":  "Gamage",
+                          "year":  "2020",
+                          "journal-title":  "J. Netw. Comput. Appl."
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0010",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "18",
+                          "DOI":  "10.1016/j.cose.2008.08.003",
+                          "article-title":  "Anomaly-based network intrusion detection: techniques, systems and challenges",
+                          "volume":  "28",
+                          "author":  "García-Teodoro",
+                          "year":  "2009",
+                          "journal-title":  "Comput. Secur."
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0011",
+                          "doi-asserted-by":  "crossref",
+                          "DOI":  "10.1371/journal.pone.0302294",
+                          "article-title":  "A hybrid feature weighted attention based deep learning approach for an intrusion detection system using the random forest algorithm",
+                          "volume":  "19",
+                          "author":  "Hashmi",
+                          "year":  "2024",
+                          "journal-title":  "PLOS ONE"
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0012",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "28",
+                          "DOI":  "10.1186/s13635-025-00202-w",
+                          "article-title":  "Deep learning-based intrusion detection for iot networks: a scalable and efficient approach",
+                          "volume":  "2025",
+                          "author":  "Hossain",
+                          "year":  "2025",
+                          "journal-title":  "EURASIP J. Inf. Secur."
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0013",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "15",
+                          "DOI":  "10.1145/2382577.2382579",
+                          "article-title":  "Leakage in data mining: formulation, detection, and avoidance",
+                          "volume":  "6",
+                          "author":  "Kaufman",
+                          "year":  "2012",
+                          "journal-title":  "ACM Trans. Knowl. Discov. Data"
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0014",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "20",
+                          "DOI":  "10.1186/s42400-019-0038-7",
+                          "article-title":  "Survey of intrusion detection systems: techniques, datasets and challenges",
+                          "volume":  "2",
+                          "author":  "Khraisat",
+                          "year":  "2019",
+                          "journal-title":  "Cybersecurity"
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0015",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "219",
+                          "DOI":  "10.1145/1030194.1015492",
+                          "article-title":  "Diagnosing network-wide traffic anomalies",
+                          "volume":  "34",
+                          "author":  "Lakhina",
+                          "year":  "2004",
+                          "journal-title":  "ACM SIGCOMM Comput. Commun. Rev."
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0016",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "217",
+                          "DOI":  "10.1145/1090191.1080118",
+                          "article-title":  "Mining anomalies using traffic feature distributions",
+                          "volume":  "35",
+                          "author":  "Lakhina",
+                          "year":  "2005",
+                          "journal-title":  "ACM SIGCOMM Comput. Commun. Rev."
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0017",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "3466",
+                          "DOI":  "10.1109/TDSC.2022.3201582",
+                          "article-title":  "Maintainable log datasets for evaluation of intrusion detection systems",
+                          "volume":  "20",
+                          "author":  "Landauer",
+                          "year":  "2022",
+                          "journal-title":  "IEEE Trans. Dependable Secure Comput."
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0018",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "657",
+                          "DOI":  "10.1080/0952813X.2022.2104384",
+                          "article-title":  "Intrusion detection method based on imbalanced learning classification",
+                          "volume":  "36",
+                          "author":  "Li",
+                          "year":  "2024",
+                          "journal-title":  "J. Exp. Theor. Artif. Intell."
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0019",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "340",
+                          "DOI":  "10.1007/s10462-025-11346-z",
+                          "article-title":  "Deep learning for intrusion detection in emerging technologies: a comprehensive survey and new perspectives",
+                          "volume":  "58",
+                          "author":  "Neto",
+                          "year":  "2025",
+                          "journal-title":  "Artif. Intell. Rev."
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0020",
+                          "series-title":  "Proceedings of the 22nd International Conference on Machine Learning",
+                          "first-page":  "625",
+                          "article-title":  "Predicting good probabilities with supervised learning",
+                          "author":  "Niculescu-Mizil",
+                          "year":  "2005"
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0021",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "13546",
+                          "DOI":  "10.1109/ACCESS.2019.2893871",
+                          "article-title":  "Introducing deep learning self-adaptive misuse network intrusion detection systems",
+                          "volume":  "7",
+                          "author":  "Papamartzivanos",
+                          "year":  "2019",
+                          "journal-title":  "IEEE Access"
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0022",
+                          "doi-asserted-by":  "crossref",
+                          "DOI":  "10.1111/exsy.12477",
+                          "article-title":  "Online eigenvector transformation reflecting concept drift for improving network intrusion detection",
+                          "volume":  "37",
+                          "author":  "Park",
+                          "year":  "2020",
+                          "journal-title":  "Expert Syst."
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0023",
+                          "doi-asserted-by":  "crossref",
+                          "DOI":  "10.1038/s41598-024-72049-z",
+                          "article-title":  "A novel intrusion detection framework for optimizing iot security",
+                          "volume":  "14",
+                          "author":  "Qaddos",
+                          "year":  "2024",
+                          "journal-title":  "Sci. Rep."
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0024",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "147",
+                          "DOI":  "10.1016/j.cose.2019.06.005",
+                          "article-title":  "A survey of network-based intrusion detection data sets",
+                          "volume":  "86",
+                          "author":  "Ring",
+                          "year":  "2019",
+                          "journal-title":  "Comput. Secur."
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0025",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "379",
+                          "DOI":  "10.1002/j.1538-7305.1948.tb01338.x",
+                          "article-title":  "A mathematical theory of communication",
+                          "volume":  "27",
+                          "author":  "Shannon",
+                          "year":  "1948",
+                          "journal-title":  "Bell Syst. Tech. J."
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0026",
+                          "series-title":  "2010 IEEE Symposium on Security and Privacy",
+                          "first-page":  "305",
+                          "article-title":  "Outside the closed world: on using machine learning for network intrusion detection",
+                          "author":  "Sommer",
+                          "year":  "2010"
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0027",
+                          "unstructured":  "F. Soro, M. Landauer, F. Skopik, W. Hotwagner, M. Wurzenberger, Ait netflow data set, Zenodo, 2022. 10.5281/zenodo.13168643."
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0028",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "343",
+                          "DOI":  "10.1109/SURV.2010.032210.00054",
+                          "article-title":  "An overview of ip flow-based intrusion detection",
+                          "volume":  "12",
+                          "author":  "Sperotto",
+                          "year":  "2010",
+                          "journal-title":  "IEEE Commun. Surv. Tutor."
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0029",
+                          "doi-asserted-by":  "crossref",
+                          "DOI":  "10.1038/s41598-025-11348-5",
+                          "article-title":  "Network intrusion detection model using wrapper based feature selection and multi head attention transformers",
+                          "volume":  "15",
+                          "author":  "Umer",
+                          "year":  "2025",
+                          "journal-title":  "Sci. Rep."
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0030",
+                          "doi-asserted-by":  "crossref",
+                          "first-page":  "91",
+                          "DOI":  "10.1186/1471-2105-7-91",
+                          "article-title":  "Bias in error estimation when using cross-validation for model selection",
+                          "volume":  "7",
+                          "author":  "Varma",
+                          "year":  "2006",
+                          "journal-title":  "BMC Bioinform."
+                      },
+                      {
+                          "key":  "10.1016/j.cam.2026.118302_bib0031",
+                          "doi-asserted-by":  "crossref",
+                          "DOI":  "10.1016/j.comnet.2026.112389",
+                          "article-title":  "FSG-NID: early network intrusion detection via flow segment graph analysis",
+                          "volume":  "285",
+                          "author":  "Xu",
+                          "year":  "2026",
+                          "journal-title":  "Comput. Netw."
+                      }
+                  ],
+    "container-title":  [
+                            "Journal of Computational and Applied Mathematics"
+                        ],
+    "original-title":  [
+
+                       ],
+    "language":  "en",
+    "link":  [
+                 {
+                     "URL":  "https://api.elsevier.com/content/article/PII:S0377042726009416?httpAccept=text/xml",
+                     "content-type":  "text/xml",
+                     "content-version":  "vor",
+                     "intended-application":  "text-mining"
+                 },
+                 {
+                     "URL":  "https://api.elsevier.com/content/article/PII:S0377042726009416?httpAccept=text/plain",
+                     "content-type":  "text/plain",
+                     "content-version":  "vor",
+                     "intended-application":  "text-mining"
+                 }
+             ],
+    "deposited":  {
+                      "date-parts":  [
+                                         [
+                                             2026,
+                                             11,
+                                             27
+                                         ]
+                                     ],
+                      "date-time":  "2026-11-27T18:00:17Z",
+                      "timestamp":  1795802417000
+                  },
+    "score":  1,
+    "resource":  {
+                     "primary":  {
+                                     "URL":  "https://linkinghub.elsevier.com/retrieve/pii/S0377042726009416"
+                                 }
+                 },
+    "subtitle":  [
+
+                 ],
+    "short-title":  [
+
+                    ],
+    "issued":  {
+                   "date-parts":  [
+                                      [
+                                          2027,
+                                          5
+                                      ]
+                                  ]
+               },
+    "references-count":  31,
+    "alternative-id":  [
+                           "S0377042726009416"
+                       ],
+    "URL":  "https://doi.org/10.1016/j.cam.2026.118302",
+    "relation":  {
+
+                 },
+    "ISSN":  [
+                 "0377-0427"
+             ],
+    "issn-type":  [
+                      {
+                          "value":  "0377-0427",
+                          "type":  "print"
+                      }
+                  ],
+    "subject":  [
+
+                ],
+    "published":  {
+                      "date-parts":  [
+                                         [
+                                             2027,
+                                             5
+                                         ]
+                                     ]
+                  },
+    "assertion":  [
+                      {
+                          "value":  "Elsevier",
+                          "name":  "publisher",
+                          "label":  "This article is maintained by"
+                      },
+                      {
+                          "value":  "Reliability-weighted Bayesian evidence fusion for calibrated pre-exploitation risk forecasting",
+                          "name":  "articletitle",
+                          "label":  "Article Title"
+                      },
+                      {
+                          "value":  "Journal of Computational and Applied Mathematics",
+                          "name":  "journaltitle",
+                          "label":  "Journal Title"
+                      },
+                      {
+                          "value":  "https://doi.org/10.1016/j.cam.2026.118302",
+                          "name":  "articlelink",
+                          "label":  "CrossRef DOI link to publisher maintained version"
+                      },
+                      {
+                          "value":  "article",
+                          "name":  "content_type",
+                          "label":  "Content Type"
+                      },
+                      {
+                          "value":  "© 2026 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+                          "name":  "copyright",
+                          "label":  "Copyright"
+                      }
+                  ],
+    "article-number":  "118302"
+}

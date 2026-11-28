@@ -1,0 +1,35 @@
+services:
+  juice-shop:
+    # Pulled and tested 2026-11-28; pin the content rather than a moving tag.
+    image: bkimminich/juice-shop@sha256:adaf6a6ca50f772dff7d2fe56972c659e81a61e0dbbe607c2b39fefd436e6153
+    restart: "no"
+    expose:
+      - "3000"
+    networks:
+      - testbed
+
+  waf:
+    # Pulled and tested 2026-11-28; pin the content rather than a moving tag.
+    image: owasp/modsecurity-crs@sha256:cd1aa84167b5ba42539001c6fedf174484499ad1c37161df9eed1453e64d65e2
+    restart: "no"
+    depends_on:
+      - juice-shop
+    environment:
+      BACKEND: http://juice-shop:3000
+      PORT: "8080"
+      MODSEC_RULE_ENGINE: "On"
+      BLOCKING_PARANOIA: "1"
+      DETECTION_PARANOIA: "1"
+      ANOMALY_INBOUND: "5"
+      ANOMALY_OUTBOUND: "4"
+      MODSEC_AUDIT_ENGINE: RelevantOnly
+    ports:
+      - "127.0.0.1:18080:8080"
+    networks:
+      - testbed
+
+networks:
+  testbed:
+    driver: bridge
+    internal: true
+

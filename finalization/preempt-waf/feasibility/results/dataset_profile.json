@@ -1,0 +1,912 @@
+{
+  "webspotter": {
+    "datasets\\CSIC\\test.jsonl": {
+      "records": 8576,
+      "labels": {
+        "0": 4641,
+        "1": 3935
+      },
+      "methods": {
+        "GET": 4464,
+        "POST": 4112
+      },
+      "keys": [
+        "attacks",
+        "body",
+        "label",
+        "method",
+        "url"
+      ],
+      "location_labeled_records": 0,
+      "has_timestamp": false,
+      "has_session_identifier": false
+    },
+    "datasets\\CSIC\\train.jsonl": {
+      "records": 25701,
+      "labels": {
+        "0": 13999,
+        "1": 11702
+      },
+      "methods": {
+        "POST": 12208,
+        "GET": 13493
+      },
+      "keys": [
+        "attacks",
+        "body",
+        "label",
+        "method",
+        "url"
+      ],
+      "location_labeled_records": 0,
+      "has_timestamp": false,
+      "has_session_identifier": false
+    },
+    "datasets\\CVE\\test.jsonl": {
+      "records": 9248,
+      "labels": {
+        "1": 2184,
+        "2": 500,
+        "3": 1497,
+        "4": 5067
+      },
+      "methods": {
+        "GET": 4246,
+        "POST": 5002
+      },
+      "keys": [
+        "CVE",
+        "attacks",
+        "body",
+        "label",
+        "method",
+        "url"
+      ],
+      "location_labeled_records": 0,
+      "has_timestamp": false,
+      "has_session_identifier": false
+    },
+    "datasets\\CVE\\train.jsonl": {
+      "records": 42449,
+      "labels": {
+        "0": 13048,
+        "1": 5514,
+        "2": 2231,
+        "3": 13901,
+        "4": 7755
+      },
+      "methods": {
+        "POST": 20604,
+        "GET": 21845
+      },
+      "keys": [
+        "CVE",
+        "attacks",
+        "body",
+        "label",
+        "location",
+        "method",
+        "url"
+      ],
+      "location_labeled_records": 24858,
+      "has_timestamp": false,
+      "has_session_identifier": false
+    },
+    "datasets\\FPAD\\test.jsonl": {
+      "records": 16197,
+      "labels": {
+        "0": 5588,
+        "1": 2113,
+        "2": 848,
+        "3": 5544,
+        "4": 2104
+      },
+      "methods": {
+        "GET": 8290,
+        "POST": 7907
+      },
+      "keys": [
+        "body",
+        "label",
+        "location",
+        "method",
+        "url"
+      ],
+      "location_labeled_records": 10609,
+      "has_timestamp": false,
+      "has_session_identifier": false
+    },
+    "datasets\\FPAD\\train.jsonl": {
+      "records": 37779,
+      "labels": {
+        "0": 13040,
+        "1": 4794,
+        "2": 1965,
+        "3": 12889,
+        "4": 5091
+      },
+      "methods": {
+        "GET": 19421,
+        "POST": 18358
+      },
+      "keys": [
+        "body",
+        "label",
+        "location",
+        "method",
+        "url"
+      ],
+      "location_labeled_records": 24739,
+      "has_timestamp": false,
+      "has_session_identifier": false
+    },
+    "datasets\\FPAD-OOD\\test.jsonl": {
+      "records": 21180,
+      "labels": {
+        "1": 4254,
+        "2": 1402,
+        "3": 8032,
+        "4": 7492
+      },
+      "methods": {
+        "GET": 11029,
+        "POST": 10151
+      },
+      "keys": [
+        "body",
+        "label",
+        "location",
+        "method",
+        "url"
+      ],
+      "location_labeled_records": 21180,
+      "has_timestamp": false,
+      "has_session_identifier": false
+    },
+    "datasets\\PKDD\\test.jsonl": {
+      "records": 10024,
+      "labels": {
+        "0": 6983,
+        "1": 465,
+        "2": 468,
+        "3": 455,
+        "4": 436,
+        "5": 480,
+        "6": 384,
+        "7": 353
+      },
+      "methods": {
+        "POST": 962,
+        "GET": 8133,
+        "PUT": 929
+      },
+      "keys": [
+        "attacks",
+        "attacks_interval",
+        "body",
+        "headers",
+        "label",
+        "method",
+        "type",
+        "url"
+      ],
+      "location_labeled_records": 0,
+      "has_timestamp": false,
+      "has_session_identifier": false
+    },
+    "datasets\\PKDD\\train.jsonl": {
+      "records": 40092,
+      "labels": {
+        "0": 28023,
+        "1": 1809,
+        "2": 1811,
+        "3": 1840,
+        "4": 1866,
+        "5": 1799,
+        "6": 1472,
+        "7": 1472
+      },
+      "methods": {
+        "GET": 32709,
+        "POST": 3699,
+        "PUT": 3684
+      },
+      "keys": [
+        "attacks",
+        "attacks_interval",
+        "body",
+        "headers",
+        "label",
+        "method",
+        "type",
+        "url"
+      ],
+      "location_labeled_records": 0,
+      "has_timestamp": false,
+      "has_session_identifier": false
+    }
+  },
+  "ait_lds_v2_1": {
+    "fox": {
+      "access_files": 7,
+      "raw_lines": 423006,
+      "parsed_requests": 422890,
+      "unparsed_lines": 116,
+      "start_utc": "2022-01-15T06:20:14+00:00",
+      "end_utc": "2022-01-19T22:03:59+00:00",
+      "unique_ip_values": 8,
+      "unique_user_agents": 9,
+      "methods": {
+        "GET": 414937,
+        "POST": 2777,
+        "OPTIONS": 440,
+        "HEAD": 4736
+      },
+      "statuses": {
+        "200": 12041,
+        "301": 92,
+        "302": 121,
+        "304": 7,
+        "403": 634,
+        "404": 409980,
+        "405": 1,
+        "500": 14
+      },
+      "first_exploit_attempt_definition": "AIT-ADS webshell phase start",
+      "first_exploit_attempt_utc": "2022-01-18T12:38:00+00:00",
+      "requests_before_first_exploit": 419807,
+      "requests_between_recon_start_and_first_exploit": 410906,
+      "requests_by_attack_phase": {
+        "network_scans": 74,
+        "service_scans": 12,
+        "wpscan": 4767,
+        "dirb": 406053,
+        "webshell": 17,
+        "cracking": 96,
+        "reverse_shell": 2,
+        "dnsteal": 524
+      },
+      "apache_line_label_rows": 410841,
+      "apache_line_labels": {
+        "service_scan": 12,
+        "foothold": 410837,
+        "attacker_http": 410831,
+        "wpscan": 4764,
+        "dirb": 406045,
+        "webshell_upload": 3,
+        "webshell_cmd": 17,
+        "escalate": 4
+      }
+    },
+    "harrison": {
+      "access_files": 7,
+      "raw_lines": 440394,
+      "parsed_requests": 440227,
+      "unparsed_lines": 167,
+      "start_utc": "2022-02-04T05:53:37+00:00",
+      "end_utc": "2022-02-08T20:50:20+00:00",
+      "unique_ip_values": 5,
+      "unique_user_agents": 9,
+      "methods": {
+        "GET": 429852,
+        "OPTIONS": 899,
+        "POST": 4662,
+        "HEAD": 4814
+      },
+      "statuses": {
+        "200": 24554,
+        "301": 93,
+        "302": 310,
+        "304": 13,
+        "403": 641,
+        "404": 414603,
+        "405": 1,
+        "500": 12
+      },
+      "first_exploit_attempt_definition": "AIT-ADS webshell phase start",
+      "first_exploit_attempt_utc": "2022-02-08T07:55:59+00:00",
+      "requests_before_first_exploit": 435302,
+      "requests_between_recon_start_and_first_exploit": 415876,
+      "requests_by_attack_phase": {
+        "network_scans": 34,
+        "service_scans": 19,
+        "wpscan": 4842,
+        "dirb": 410981,
+        "webshell": 13,
+        "cracking": 264,
+        "reverse_shell": 2,
+        "dnsteal": 1356
+      },
+      "apache_line_label_rows": 415376,
+      "apache_line_labels": {
+        "service_scan": 12,
+        "foothold": 415372,
+        "attacker_http": 415366,
+        "wpscan": 4840,
+        "dirb": 410507,
+        "webshell_upload": 3,
+        "webshell_cmd": 14,
+        "escalate": 4
+      }
+    },
+    "russellmitchell": {
+      "access_files": 7,
+      "raw_lines": 11184,
+      "parsed_requests": 11130,
+      "unparsed_lines": 54,
+      "start_utc": "2022-01-21T05:55:22+00:00",
+      "end_utc": "2022-01-24T20:59:10+00:00",
+      "unique_ip_values": 6,
+      "unique_user_agents": 9,
+      "methods": {
+        "GET": 7297,
+        "POST": 540,
+        "OPTIONS": 124,
+        "HEAD": 3169
+      },
+      "statuses": {
+        "200": 3390,
+        "301": 6,
+        "302": 2,
+        "304": 12,
+        "403": 8,
+        "404": 7710,
+        "405": 1,
+        "500": 1
+      },
+      "first_exploit_attempt_definition": "AIT-ADS webshell phase start",
+      "first_exploit_attempt_utc": "2022-01-24T03:58:19+00:00",
+      "requests_before_first_exploit": 10494,
+      "requests_between_recon_start_and_first_exploit": 7663,
+      "requests_by_attack_phase": {
+        "dnsteal": 39,
+        "service_scans": 14,
+        "dirb": 4462,
+        "wpscan": 3187,
+        "webshell": 31,
+        "cracking": 4,
+        "reverse_shell": 1
+      },
+      "apache_line_label_rows": 7695,
+      "apache_line_labels": {
+        "service_scan": 12,
+        "foothold": 7691,
+        "attacker_http": 7687,
+        "dirb": 4462,
+        "wpscan": 3186,
+        "webshell_upload": 3,
+        "webshell_cmd": 32,
+        "escalate": 4
+      }
+    },
+    "santos": {
+      "access_files": 6,
+      "raw_lines": 15784,
+      "parsed_requests": 15700,
+      "unparsed_lines": 84,
+      "start_utc": "2022-01-14T06:39:25+00:00",
+      "end_utc": "2022-01-17T20:26:40+00:00",
+      "unique_ip_values": 11,
+      "unique_user_agents": 9,
+      "methods": {
+        "POST": 1597,
+        "GET": 10478,
+        "OPTIONS": 359,
+        "HEAD": 3266
+      },
+      "statuses": {
+        "200": 7776,
+        "301": 6,
+        "302": 43,
+        "304": 11,
+        "403": 8,
+        "404": 7853,
+        "405": 1,
+        "500": 2
+      },
+      "first_exploit_attempt_definition": "AIT-ADS webshell phase start",
+      "first_exploit_attempt_utc": "2022-01-17T11:22:58+00:00",
+      "requests_before_first_exploit": 14447,
+      "requests_between_recon_start_and_first_exploit": 7762,
+      "requests_by_attack_phase": {
+        "service_scans": 12,
+        "dirb": 4462,
+        "wpscan": 3288,
+        "webshell": 29,
+        "cracking": 96,
+        "reverse_shell": 2,
+        "dnsteal": 149
+      },
+      "apache_line_label_rows": 0,
+      "apache_line_labels": {}
+    },
+    "shaw": {
+      "access_files": 8,
+      "raw_lines": 15746,
+      "parsed_requests": 15555,
+      "unparsed_lines": 191,
+      "start_utc": "2022-01-25T05:20:14+00:00",
+      "end_utc": "2022-01-30T21:01:48+00:00",
+      "unique_ip_values": 8,
+      "unique_user_agents": 8,
+      "methods": {
+        "GET": 12527,
+        "POST": 1909,
+        "OPTIONS": 388,
+        "HEAD": 731
+      },
+      "statuses": {
+        "200": 10011,
+        "301": 6,
+        "302": 73,
+        "304": 22,
+        "403": 8,
+        "404": 5432,
+        "405": 1,
+        "500": 2
+      },
+      "first_exploit_attempt_definition": "AIT-ADS webshell phase start",
+      "first_exploit_attempt_utc": "2022-01-29T14:39:40+00:00",
+      "requests_before_first_exploit": 13120,
+      "requests_between_recon_start_and_first_exploit": 5216,
+      "requests_by_attack_phase": {
+        "wpscan": 752,
+        "dirb": 4464,
+        "webshell": 8,
+        "cracking": 53,
+        "reverse_shell": 2
+      },
+      "apache_line_label_rows": 5226,
+      "apache_line_labels": {
+        "attacker_http": 5222,
+        "foothold": 5222,
+        "wpscan": 750,
+        "dirb": 4462,
+        "webshell_upload": 3,
+        "webshell_cmd": 11,
+        "escalate": 4
+      }
+    },
+    "wardbeck": {
+      "access_files": 7,
+      "raw_lines": 42101,
+      "parsed_requests": 41894,
+      "unparsed_lines": 207,
+      "start_utc": "2022-01-19T05:55:00+00:00",
+      "end_utc": "2022-01-23T23:59:14+00:00",
+      "unique_ip_values": 8,
+      "unique_user_agents": 9,
+      "methods": {
+        "POST": 13093,
+        "GET": 26749,
+        "OPTIONS": 1311,
+        "HEAD": 741
+      },
+      "statuses": {
+        "200": 36235,
+        "301": 6,
+        "302": 314,
+        "304": 13,
+        "403": 8,
+        "404": 5315,
+        "405": 1,
+        "500": 2
+      },
+      "first_exploit_attempt_definition": "AIT-ADS webshell phase start",
+      "first_exploit_attempt_utc": "2022-01-23T12:12:17+00:00",
+      "requests_before_first_exploit": 37529,
+      "requests_between_recon_start_and_first_exploit": 5284,
+      "requests_by_attack_phase": {
+        "network_scans": 15,
+        "service_scans": 13,
+        "wpscan": 793,
+        "dirb": 4463,
+        "webshell": 33,
+        "cracking": 261,
+        "reverse_shell": 1,
+        "privilege_escalation": 6,
+        "dnsteal": 60
+      },
+      "apache_line_label_rows": 5299,
+      "apache_line_labels": {
+        "service_scan": 12,
+        "foothold": 5295,
+        "attacker_http": 5291,
+        "wpscan": 789,
+        "dirb": 4462,
+        "webshell_upload": 3,
+        "webshell_cmd": 33,
+        "escalate": 4
+      }
+    },
+    "wheeler": {
+      "access_files": 7,
+      "raw_lines": 440920,
+      "parsed_requests": 440766,
+      "unparsed_lines": 154,
+      "start_utc": "2022-01-26T06:46:30+00:00",
+      "end_utc": "2022-01-30T21:54:52+00:00",
+      "unique_ip_values": 8,
+      "unique_user_agents": 10,
+      "methods": {
+        "GET": 432585,
+        "POST": 1079,
+        "OPTIONS": 473,
+        "HEAD": 6629
+      },
+      "statuses": {
+        "200": 9091,
+        "301": 93,
+        "302": 151,
+        "304": 13,
+        "403": 640,
+        "404": 430771,
+        "405": 1,
+        "500": 6
+      },
+      "first_exploit_attempt_definition": "AIT-ADS webshell phase start",
+      "first_exploit_attempt_utc": "2022-01-30T07:56:46+00:00",
+      "requests_before_first_exploit": 439325,
+      "requests_between_recon_start_and_first_exploit": 431611,
+      "requests_by_attack_phase": {
+        "network_scans": 2,
+        "service_scans": 12,
+        "dirb": 424916,
+        "wpscan": 6681,
+        "webshell": 10,
+        "reverse_shell": 1,
+        "dnsteal": 81
+      },
+      "apache_line_label_rows": 431560,
+      "apache_line_labels": {
+        "service_scan": 12,
+        "foothold": 431560,
+        "attacker_http": 431555,
+        "dirb": 424859,
+        "wpscan": 6679,
+        "webshell_upload": 3,
+        "webshell_cmd": 7
+      }
+    },
+    "wilson": {
+      "access_files": 8,
+      "raw_lines": 463873,
+      "parsed_requests": 463726,
+      "unparsed_lines": 147,
+      "start_utc": "2022-02-03T05:05:14+00:00",
+      "end_utc": "2022-02-08T21:41:45+00:00",
+      "unique_ip_values": 9,
+      "unique_user_agents": 9,
+      "methods": {
+        "GET": 451727,
+        "POST": 7477,
+        "OPTIONS": 1339,
+        "HEAD": 3183
+      },
+      "statuses": {
+        "200": 35025,
+        "301": 93,
+        "302": 442,
+        "304": 13,
+        "403": 637,
+        "404": 427504,
+        "405": 1,
+        "500": 11
+      },
+      "first_exploit_attempt_definition": "AIT-ADS webshell phase start",
+      "first_exploit_attempt_utc": "2022-02-07T11:20:27+00:00",
+      "requests_before_first_exploit": 453209,
+      "requests_between_recon_start_and_first_exploit": 428216,
+      "requests_by_attack_phase": {
+        "network_scans": 20,
+        "service_scans": 13,
+        "dirb": 424945,
+        "wpscan": 3238,
+        "webshell": 7,
+        "cracking": 198,
+        "reverse_shell": 2,
+        "dnsteal": 307
+      },
+      "apache_line_label_rows": 428116,
+      "apache_line_labels": {
+        "service_scan": 12,
+        "foothold": 428112,
+        "attacker_http": 428108,
+        "dirb": 424859,
+        "wpscan": 3234,
+        "webshell_upload": 3,
+        "webshell_cmd": 8,
+        "escalate": 4
+      }
+    }
+  },
+  "cam_lds_scenario_1": {
+    "apache_requests": 24860,
+    "apache_start_utc": "2025-09-22T06:26:07+00:00",
+    "apache_end_utc": "2025-09-22T06:29:12+00:00",
+    "methods": {
+      "HEAD": 1,
+      "GET": 24772,
+      "PUT": 1,
+      "OPTIONS": 62,
+      "DEBUG": 1,
+      "PROPFIND": 1,
+      "TRACE": 2,
+      "TRACK": 2,
+      "POST": 14,
+      "get": 1,
+      "INDEX": 1,
+      "SEARCH": 1,
+      "<script>alert(1)</script>": 1
+    },
+    "statuses": {
+      "200": 63,
+      "301": 2,
+      "302": 79,
+      "400": 97,
+      "403": 15,
+      "404": 24602,
+      "405": 1,
+      "417": 1
+    },
+    "attackmate_labeled_or_session_steps": 32,
+    "attackmate_steps": [
+      {
+        "line": 2,
+        "start_datetime": "2025-09-22T06:25:18.316672",
+        "type": "shell",
+        "tactics": "Reconnaissance",
+        "techniques": "T1590.002,T1591",
+        "technique_name": "Gather Victim Network Information: DNS,Gather Victim Org Information"
+      },
+      {
+        "line": 3,
+        "start_datetime": "2025-09-22T06:25:38.167729",
+        "type": "shell",
+        "tactics": "Reconnaissance",
+        "techniques": "T1595,T1592.002",
+        "technique_name": "Active Scanning,Gather Victim Host Information: Software"
+      },
+      {
+        "line": 4,
+        "start_datetime": "2025-09-22T06:26:06.282090",
+        "type": "shell",
+        "tactics": "Reconnaissance",
+        "techniques": "T1595.002",
+        "technique_name": "Active Scanning: Vulnerability Scanning"
+      },
+      {
+        "line": 6,
+        "start_datetime": "2025-09-22T06:27:05.635242",
+        "type": "shell",
+        "tactics": "Reconnaissance",
+        "techniques": "T1595.003",
+        "technique_name": "Active Scanning: Wordlist Scanning"
+      },
+      {
+        "line": 8,
+        "start_datetime": "2025-09-22T06:28:56.922878",
+        "type": "msf-module",
+        "tactics": "Initial Access",
+        "techniques": "T1190,T1059.006",
+        "technique_name": "Exploit Public-Facing Application,Command and Scripting Interpreter: Python"
+      },
+      {
+        "line": 9,
+        "start_datetime": "2025-09-22T06:29:57.621905",
+        "type": "msf-session",
+        "tactics": "",
+        "techniques": "",
+        "technique_name": null
+      },
+      {
+        "line": 10,
+        "start_datetime": "2025-09-22T06:30:13.979386",
+        "type": "msf-session",
+        "tactics": "Command and Control",
+        "techniques": "T1105",
+        "technique_name": "Ingress Tool Transfer"
+      },
+      {
+        "line": 11,
+        "start_datetime": "2025-09-22T06:30:30.293985",
+        "type": "msf-session",
+        "tactics": "",
+        "techniques": "",
+        "technique_name": null
+      },
+      {
+        "line": 12,
+        "start_datetime": "2025-09-22T06:30:46.620207",
+        "type": "msf-session",
+        "tactics": "Execution",
+        "techniques": "T1059",
+        "technique_name": "Command and Scripting Interpreter"
+      },
+      {
+        "line": 13,
+        "start_datetime": "2025-09-22T06:31:02.936172",
+        "type": "msf-session",
+        "tactics": "Execution",
+        "techniques": "T1059",
+        "technique_name": "Command and Scripting Interpreter"
+      },
+      {
+        "line": 14,
+        "start_datetime": "2025-09-22T06:31:19.295627",
+        "type": "msf-session",
+        "tactics": "Execution",
+        "techniques": "T1059",
+        "technique_name": "Command and Scripting Interpreter"
+      },
+      {
+        "line": 15,
+        "start_datetime": "2025-09-22T06:31:35.527068",
+        "type": "msf-session",
+        "tactics": "Execution",
+        "techniques": "T1059",
+        "technique_name": "Command and Scripting Interpreter"
+      },
+      {
+        "line": 16,
+        "start_datetime": "2025-09-22T06:31:51.892549",
+        "type": "msf-session",
+        "tactics": "Execution",
+        "techniques": "T1059",
+        "technique_name": "Command and Scripting Interpreter"
+      },
+      {
+        "line": 17,
+        "start_datetime": "2025-09-22T06:32:08.168701",
+        "type": "msf-session",
+        "tactics": "Execution",
+        "techniques": "T1059",
+        "technique_name": "Command and Scripting Interpreter"
+      },
+      {
+        "line": 18,
+        "start_datetime": "2025-09-22T06:32:24.540556",
+        "type": "msf-session",
+        "tactics": "Discovery",
+        "techniques": "T1087,T1083,T1201,T1069,T1057,T1518,T1082,T1614,T1016,T1049,T1033,T1007,T1615",
+        "technique_name": "Account Discovery,File and Directory Discovery,Password Policy Discover,Permission Groups Discovery,Process Discovery,Software Discovery,System Information Discovery,System Location Discovery,System Network Configuration Discovery,System Network Connections Discovery,System Owner/User Discovery,System Service Discovery,Group Policy Discovery"
+      },
+      {
+        "line": 20,
+        "start_datetime": "2025-09-22T06:42:39.739515",
+        "type": "msf-session",
+        "tactics": "Discovery",
+        "techniques": "T1033",
+        "technique_name": "System Owner/User Discovery"
+      },
+      {
+        "line": 21,
+        "start_datetime": "2025-09-22T06:42:54.982571",
+        "type": "msf-session",
+        "tactics": "Command and Control",
+        "techniques": "T1105",
+        "technique_name": "Ingress Tool Transfer"
+      },
+      {
+        "line": 22,
+        "start_datetime": "2025-09-22T06:43:11.352215",
+        "type": "msf-session",
+        "tactics": "Privilege Escalation",
+        "techniques": "T1068",
+        "technique_name": "Exploitation for Privilege Escalation"
+      },
+      {
+        "line": 23,
+        "start_datetime": "2025-09-22T06:43:27.675744",
+        "type": "msf-session",
+        "tactics": "Discovery",
+        "techniques": "T1033",
+        "technique_name": "System Owner/User Discovery"
+      },
+      {
+        "line": 24,
+        "start_datetime": "2025-09-22T06:43:44.042352",
+        "type": "msf-session",
+        "tactics": "Command and Control,Persistence",
+        "techniques": "T1105,T1136.001",
+        "technique_name": "Ingress Tool Transfer,Create Account: Local Account"
+      },
+      {
+        "line": 25,
+        "start_datetime": "2025-09-22T06:44:00.346057",
+        "type": "msf-session",
+        "tactics": "Defense Evasion,Persistence",
+        "techniques": "T1218,T1136.001",
+        "technique_name": "System Binary Proxy Execution,Create Account: Local Account"
+      },
+      {
+        "line": 26,
+        "start_datetime": "2025-09-22T06:44:16.669295",
+        "type": "msf-session",
+        "tactics": "Defense Evasion",
+        "techniques": "T1070.004",
+        "technique_name": "Indicator Removal: File Deletion"
+      },
+      {
+        "line": 27,
+        "start_datetime": "2025-09-22T06:44:33.031083",
+        "type": "msf-session",
+        "tactics": "",
+        "techniques": "",
+        "technique_name": null
+      },
+      {
+        "line": 28,
+        "start_datetime": "2025-09-22T06:44:49.322861",
+        "type": "msf-session",
+        "tactics": "Defense Evasion",
+        "techniques": "T1070.004",
+        "technique_name": "Indicator Removal: File Deletion"
+      },
+      {
+        "line": 29,
+        "start_datetime": "2025-09-22T06:45:05.691912",
+        "type": "msf-session",
+        "tactics": "Defense Evasion",
+        "techniques": "T1070.004",
+        "technique_name": "Indicator Removal: File Deletion"
+      },
+      {
+        "line": 30,
+        "start_datetime": "2025-09-22T06:45:21.969454",
+        "type": "msf-session",
+        "tactics": "",
+        "techniques": "",
+        "technique_name": null
+      },
+      {
+        "line": 32,
+        "start_datetime": "2025-09-22T06:46:08.351938",
+        "type": "ssh",
+        "tactics": "Discovery",
+        "techniques": "T1033",
+        "technique_name": "System Owner/User Discovery"
+      },
+      {
+        "line": 34,
+        "start_datetime": "2025-09-22T06:46:38.961580",
+        "type": "ssh",
+        "tactics": "Credential Access",
+        "techniques": "T1003.008",
+        "technique_name": "OS Credential Dumping: /etc/passwd and /etc/shadow"
+      },
+      {
+        "line": 35,
+        "start_datetime": "2025-09-22T06:46:53.996878",
+        "type": "ssh",
+        "tactics": "Discovery",
+        "techniques": "T1120",
+        "technique_name": "Peripheral Device Discovery"
+      },
+      {
+        "line": 36,
+        "start_datetime": "2025-09-22T06:47:09.048434",
+        "type": "ssh",
+        "tactics": "Discovery",
+        "techniques": "T1120",
+        "technique_name": "Peripheral Device Discovery"
+      },
+      {
+        "line": 37,
+        "start_datetime": "2025-09-22T06:47:24.083046",
+        "type": "ssh",
+        "tactics": "Discovery",
+        "techniques": "T1124",
+        "technique_name": "System Time Discovery"
+      },
+      {
+        "line": 38,
+        "start_datetime": "2025-09-22T06:47:39.098431",
+        "type": "ssh",
+        "tactics": "Defense Evasion, Discovery",
+        "techniques": "T1497.001",
+        "technique_name": "Virtualization/Sandbox Evasion: System Checks"
+      }
+    ]
+  }
+}

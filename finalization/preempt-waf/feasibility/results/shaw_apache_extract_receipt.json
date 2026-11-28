@@ -1,0 +1,71 @@
+{
+  "source_url": "https://zenodo.org/api/records/19483937/files/shaw_no-pcaps.zip/content",
+  "manifest": "finalization\\preempt-waf\\feasibility\\results\\shaw_no-pcaps_remote_manifest.json",
+  "match": "^gather/intranet_server/logs/apache2/.*access\\.log(\\.\\d+)?$|^labels/intranet_server/logs/apache2/.*access\\.log\\.\\d+$",
+  "selected_count": 9,
+  "outputs": [
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.thomasmurray.shaw.info-access.log.5",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-shaw-selected\\gather\\intranet_server\\logs\\apache2\\intranet.thomasmurray.shaw.info-access.log.5",
+      "compressed_bytes_fetched": 12845,
+      "uncompressed_bytes_written": 385934,
+      "crc32": "1bb10d14"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.thomasmurray.shaw.info-access.log.3",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-shaw-selected\\gather\\intranet_server\\logs\\apache2\\intranet.thomasmurray.shaw.info-access.log.3",
+      "compressed_bytes_fetched": 9787,
+      "uncompressed_bytes_written": 264982,
+      "crc32": "5c9cb69c"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.thomasmurray.shaw.info-access.log.1",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-shaw-selected\\gather\\intranet_server\\logs\\apache2\\intranet.thomasmurray.shaw.info-access.log.1",
+      "compressed_bytes_fetched": 15427,
+      "uncompressed_bytes_written": 463392,
+      "crc32": "7198466b"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.thomasmurray.shaw.info-access.log.6",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-shaw-selected\\gather\\intranet_server\\logs\\apache2\\intranet.thomasmurray.shaw.info-access.log.6",
+      "compressed_bytes_fetched": 38894,
+      "uncompressed_bytes_written": 949081,
+      "crc32": "c9f5abac"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/other_vhosts_access.log",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-shaw-selected\\gather\\intranet_server\\logs\\apache2\\other_vhosts_access.log",
+      "compressed_bytes_fetched": 0,
+      "uncompressed_bytes_written": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.thomasmurray.shaw.info-access.log.2",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-shaw-selected\\gather\\intranet_server\\logs\\apache2\\intranet.thomasmurray.shaw.info-access.log.2",
+      "compressed_bytes_fetched": 41035,
+      "uncompressed_bytes_written": 1122335,
+      "crc32": "adb50f58"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/access.log",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-shaw-selected\\gather\\intranet_server\\logs\\apache2\\access.log",
+      "compressed_bytes_fetched": 0,
+      "uncompressed_bytes_written": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.thomasmurray.shaw.info-access.log.4",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-shaw-selected\\gather\\intranet_server\\logs\\apache2\\intranet.thomasmurray.shaw.info-access.log.4",
+      "compressed_bytes_fetched": 11871,
+      "uncompressed_bytes_written": 350828,
+      "crc32": "876853ef"
+    },
+    {
+      "name": "labels/intranet_server/logs/apache2/intranet.thomasmurray.shaw.info-access.log.2",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-shaw-selected\\labels\\intranet_server\\logs\\apache2\\intranet.thomasmurray.shaw.info-access.log.2",
+      "compressed_bytes_fetched": 16827,
+      "uncompressed_bytes_written": 1104036,
+      "crc32": "6e9b4aac"
+    }
+  ]
+}

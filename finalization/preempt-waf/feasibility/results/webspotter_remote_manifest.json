@@ -1,0 +1,497 @@
+{
+  "url": "https://zenodo.org/api/records/16978409/files/Sec-AI-research/WebSpotter-v1.0.zip/content",
+  "archive_bytes": 44332532,
+  "content_range": null,
+  "zip_comment_bytes": 40,
+  "member_count": 54,
+  "total_member_compressed_bytes": 44321148,
+  "total_member_uncompressed_bytes": 135066836,
+  "members": [
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "compression_method": 0,
+      "crc32": "00000000",
+      "external_attributes": 16,
+      "local_header_offset": 0
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/LICENSE",
+      "compressed_bytes": 633,
+      "uncompressed_bytes": 1072,
+      "compression_method": 8,
+      "crc32": "7fad6c68",
+      "external_attributes": 0,
+      "local_header_offset": 74
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/README.md",
+      "compressed_bytes": 1727,
+      "uncompressed_bytes": 5549,
+      "compression_method": 8,
+      "crc32": "1b989061",
+      "external_attributes": 0,
+      "local_header_offset": 788
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/classification/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "compression_method": 0,
+      "crc32": "00000000",
+      "external_attributes": 16,
+      "local_header_offset": 2598
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/classification/run.py",
+      "compressed_bytes": 1886,
+      "uncompressed_bytes": 5403,
+      "compression_method": 8,
+      "crc32": "1812ed6c",
+      "external_attributes": 0,
+      "local_header_offset": 2687
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/classification/test.py",
+      "compressed_bytes": 807,
+      "uncompressed_bytes": 3538,
+      "compression_method": 8,
+      "crc32": "b72ecd18",
+      "external_attributes": 0,
+      "local_header_offset": 4668
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/classification/train.py",
+      "compressed_bytes": 560,
+      "uncompressed_bytes": 1533,
+      "compression_method": 8,
+      "crc32": "5e6ec358",
+      "external_attributes": 0,
+      "local_header_offset": 5571
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/classification/utils.py",
+      "compressed_bytes": 1803,
+      "uncompressed_bytes": 6944,
+      "compression_method": 8,
+      "crc32": "b6338b5a",
+      "external_attributes": 0,
+      "local_header_offset": 6228
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/core/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "compression_method": 0,
+      "crc32": "00000000",
+      "external_attributes": 16,
+      "local_header_offset": 8128
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/core/inputter/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "compression_method": 0,
+      "crc32": "00000000",
+      "external_attributes": 16,
+      "local_header_offset": 8207
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/core/inputter/HTTPDataset.py",
+      "compressed_bytes": 856,
+      "uncompressed_bytes": 2503,
+      "compression_method": 8,
+      "crc32": "16b85032",
+      "external_attributes": 0,
+      "local_header_offset": 8295
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/core/inputter/__init__.py",
+      "compressed_bytes": 42,
+      "uncompressed_bytes": 49,
+      "compression_method": 8,
+      "crc32": "41692f4c",
+      "external_attributes": 0,
+      "local_header_offset": 9253
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/core/preprocess/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "compression_method": 0,
+      "crc32": "00000000",
+      "external_attributes": 16,
+      "local_header_offset": 9394
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/core/preprocess/__init__.py",
+      "compressed_bytes": 134,
+      "uncompressed_bytes": 453,
+      "compression_method": 8,
+      "crc32": "543e92eb",
+      "external_attributes": 0,
+      "local_header_offset": 9484
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/core/preprocess/tokenize.py",
+      "compressed_bytes": 871,
+      "uncompressed_bytes": 2335,
+      "compression_method": 8,
+      "crc32": "3a9a033d",
+      "external_attributes": 0,
+      "local_header_offset": 9719
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/core/preprocess/tokenize_with_alignment.py",
+      "compressed_bytes": 2899,
+      "uncompressed_bytes": 15532,
+      "compression_method": 8,
+      "crc32": "413f95cf",
+      "external_attributes": 0,
+      "local_header_offset": 10691
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/core/utils/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "compression_method": 0,
+      "crc32": "00000000",
+      "external_attributes": 16,
+      "local_header_offset": 13706
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/core/utils/train_utils.py",
+      "compressed_bytes": 391,
+      "uncompressed_bytes": 1148,
+      "compression_method": 8,
+      "crc32": "5658fbc3",
+      "external_attributes": 0,
+      "local_header_offset": 13791
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "compression_method": 0,
+      "crc32": "00000000",
+      "external_attributes": 16,
+      "local_header_offset": 14281
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/CSIC/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "compression_method": 0,
+      "crc32": "00000000",
+      "external_attributes": 16,
+      "local_header_offset": 14364
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/CSIC/test.jsonl",
+      "compressed_bytes": 469105,
+      "uncompressed_bytes": 2061254,
+      "compression_method": 8,
+      "crc32": "557ed2ba",
+      "external_attributes": 0,
+      "local_header_offset": 14452
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/CSIC/train.jsonl",
+      "compressed_bytes": 1412073,
+      "uncompressed_bytes": 6212729,
+      "compression_method": 8,
+      "crc32": "e6a8d2c7",
+      "external_attributes": 0,
+      "local_header_offset": 483655
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/CVE/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "compression_method": 0,
+      "crc32": "00000000",
+      "external_attributes": 16,
+      "local_header_offset": 1895827
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/CVE/test.jsonl",
+      "compressed_bytes": 779166,
+      "uncompressed_bytes": 3460980,
+      "compression_method": 8,
+      "crc32": "6886e2f1",
+      "external_attributes": 0,
+      "local_header_offset": 1895914
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/CVE/train.jsonl",
+      "compressed_bytes": 2982959,
+      "uncompressed_bytes": 13103587,
+      "compression_method": 8,
+      "crc32": "cad27100",
+      "external_attributes": 0,
+      "local_header_offset": 2675177
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/FPAD-OOD/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "compression_method": 0,
+      "crc32": "00000000",
+      "external_attributes": 16,
+      "local_header_offset": 5658234
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/FPAD-OOD/test.jsonl",
+      "compressed_bytes": 1450205,
+      "uncompressed_bytes": 7582478,
+      "compression_method": 8,
+      "crc32": "758e2f78",
+      "external_attributes": 0,
+      "local_header_offset": 5658326
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/FPAD/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "compression_method": 0,
+      "crc32": "00000000",
+      "external_attributes": 16,
+      "local_header_offset": 7108633
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/FPAD/test.jsonl",
+      "compressed_bytes": 1130128,
+      "uncompressed_bytes": 4897708,
+      "compression_method": 8,
+      "crc32": "e5ab2323",
+      "external_attributes": 0,
+      "local_header_offset": 7108721
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/FPAD/train.jsonl",
+      "compressed_bytes": 2633859,
+      "uncompressed_bytes": 11435138,
+      "compression_method": 8,
+      "crc32": "fb266def",
+      "external_attributes": 0,
+      "local_header_offset": 8238947
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/PKDD/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "compression_method": 0,
+      "crc32": "00000000",
+      "external_attributes": 16,
+      "local_header_offset": 10872905
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/PKDD/test.jsonl",
+      "compressed_bytes": 6704545,
+      "uncompressed_bytes": 17261753,
+      "compression_method": 8,
+      "crc32": "2ab1a55f",
+      "external_attributes": 0,
+      "local_header_offset": 10872993
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/PKDD/train.jsonl",
+      "compressed_bytes": 26721165,
+      "uncompressed_bytes": 68905579,
+      "compression_method": 8,
+      "crc32": "7f132ddd",
+      "external_attributes": 0,
+      "local_header_offset": 17577636
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/README.md",
+      "compressed_bytes": 66,
+      "uncompressed_bytes": 69,
+      "compression_method": 8,
+      "crc32": "aff1aed5",
+      "external_attributes": 0,
+      "local_header_offset": 44298900
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/localization/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "compression_method": 0,
+      "crc32": "00000000",
+      "external_attributes": 16,
+      "local_header_offset": 44299058
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/localization/binary_based/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "compression_method": 0,
+      "crc32": "00000000",
+      "external_attributes": 16,
+      "local_header_offset": 44299145
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/localization/binary_based/binary_feature.py",
+      "compressed_bytes": 2446,
+      "uncompressed_bytes": 11067,
+      "compression_method": 8,
+      "crc32": "c69d79d8",
+      "external_attributes": 0,
+      "local_header_offset": 44299245
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/localization/binary_based/binary_model.py",
+      "compressed_bytes": 3245,
+      "uncompressed_bytes": 15395,
+      "compression_method": 8,
+      "crc32": "19111d60",
+      "external_attributes": 0,
+      "local_header_offset": 44301808
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/localization/binary_based/binary_textcls.py",
+      "compressed_bytes": 956,
+      "uncompressed_bytes": 3081,
+      "compression_method": 8,
+      "crc32": "fad2e0ab",
+      "external_attributes": 0,
+      "local_header_offset": 44305168
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/localization/binary_based/binary_utils.py",
+      "compressed_bytes": 593,
+      "uncompressed_bytes": 1928,
+      "compression_method": 8,
+      "crc32": "ca883d9b",
+      "external_attributes": 0,
+      "local_header_offset": 44306241
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/localization/binary_based/local_embedding.py",
+      "compressed_bytes": 686,
+      "uncompressed_bytes": 2285,
+      "compression_method": 8,
+      "crc32": "8851cbeb",
+      "external_attributes": 0,
+      "local_header_offset": 44306949
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/localization/binary_based/run.py",
+      "compressed_bytes": 1323,
+      "uncompressed_bytes": 4436,
+      "compression_method": 8,
+      "crc32": "c667baa1",
+      "external_attributes": 0,
+      "local_header_offset": 44307753
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/localization/post_explain/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "compression_method": 0,
+      "crc32": "00000000",
+      "external_attributes": 16,
+      "local_header_offset": 44309182
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/localization/post_explain/explain.py",
+      "compressed_bytes": 3061,
+      "uncompressed_bytes": 13324,
+      "compression_method": 8,
+      "crc32": "97f91a47",
+      "external_attributes": 0,
+      "local_header_offset": 44309282
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/localization/post_explain/lemna.py",
+      "compressed_bytes": 975,
+      "uncompressed_bytes": 2395,
+      "compression_method": 8,
+      "crc32": "9ff5fcd0",
+      "external_attributes": 0,
+      "local_header_offset": 44312453
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/localization/post_explain/metrics.py",
+      "compressed_bytes": 2208,
+      "uncompressed_bytes": 14166,
+      "compression_method": 8,
+      "crc32": "faa2b772",
+      "external_attributes": 0,
+      "local_header_offset": 44313536
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/localization/post_explain/run_explain.py",
+      "compressed_bytes": 2221,
+      "uncompressed_bytes": 6945,
+      "compression_method": 8,
+      "crc32": "c042669c",
+      "external_attributes": 0,
+      "local_header_offset": 44315854
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/model/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "compression_method": 0,
+      "crc32": "00000000",
+      "external_attributes": 16,
+      "local_header_offset": 44318189
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/model/cnn/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "compression_method": 0,
+      "crc32": "00000000",
+      "external_attributes": 16,
+      "local_header_offset": 44318269
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/model/cnn/textcnn.py",
+      "compressed_bytes": 587,
+      "uncompressed_bytes": 1479,
+      "compression_method": 8,
+      "crc32": "fdda15a0",
+      "external_attributes": 0,
+      "local_header_offset": 44318353
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/requirements.txt",
+      "compressed_bytes": 632,
+      "uncompressed_bytes": 1246,
+      "compression_method": 8,
+      "crc32": "f09ea07a",
+      "external_attributes": 0,
+      "local_header_offset": 44319034
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/rule_generation/",
+      "compressed_bytes": 0,
+      "uncompressed_bytes": 0,
+      "compression_method": 0,
+      "crc32": "00000000",
+      "external_attributes": 16,
+      "local_header_offset": 44319756
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/rule_generation/extract_rule.py",
+      "compressed_bytes": 4398,
+      "uncompressed_bytes": 16050,
+      "compression_method": 8,
+      "crc32": "e84fa7c3",
+      "external_attributes": 0,
+      "local_header_offset": 44319846
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/run_webspotter.py",
+      "compressed_bytes": 1937,
+      "uncompressed_bytes": 5705,
+      "compression_method": 8,
+      "crc32": "55376e2d",
+      "external_attributes": 0,
+      "local_header_offset": 44324349
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+# Raw/derived data and local environments
+feasibility/datasets/*
+!feasibility/datasets/README.md
+feasibility/logs/*
+!feasibility/logs/README.md
+feasibility/results/*.joblib
+feasibility/results/*.pkl
+feasibility/results/*.parquet
+feasibility/results/*.npz
+feasibility/environment/.venv/
+feasibility/environment/venv/
+
+# Security-sensitive/local testbed material
+*.pcap
+*.pcapng
+*.har
+*.key
+*.pem
+*.env
+credentials*
+secrets*
+
+# Python/editor noise
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+

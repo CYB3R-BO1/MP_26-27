@@ -1,0 +1,116 @@
+{
+  "created": "2026-05-03T11:32:52.860656+00:00",
+  "modified": "2026-05-03T11:32:53.167017+00:00",
+  "id": 20001206,
+  "conceptrecid": "20001205",
+  "doi": "10.5281/zenodo.20001206",
+  "conceptdoi": "10.5281/zenodo.20001205",
+  "doi_url": "https://doi.org/10.5281/zenodo.20001206",
+  "metadata": {
+    "title": "Web Server Log Dataset",
+    "doi": "10.5281/zenodo.20001206",
+    "publication_date": "2026-05-03",
+    "description": "<p>This dataset contains real-world web server log files collected from two public sector organizations in Indonesia, referred to as Organization X and Organization Y to preserve anonymity. The logs were used as datasets in forensic event reconstruction research for web application attacks.</p>\n<p><strong>Dataset contents</strong><br>The dataset includes raw log files from each organization, covering the following log artifact types where available: access.log, error.log, auth.log, and syslog. These log types capture HTTP requests, web server errors, authentication activities, and operating system events respectively.</p>\n<p><strong>Organization X</strong><br>Apache web server, contains 60 log files, covering the period from August 12, 2025 to October 7, 2025. The logs reflect extensive reconnaissance and exploitation attempts. No evidence of privilege escalation was identified, indicating that the attacks were detected or mitigated before reaching critical stages.</p>\n<p><strong>Organization Y</strong><br>Openlitespeed (cyberpanel) based web server log, contains 208 log files, the logs capture a successful privilege escalation incident that occurred on April 29, 2025 (05:28&ndash;07:07 local time), despite the absence of clear prior reconnaissance traces. This scenario represents cases where attackers may have bypassed initial detection or performed reconnaissance through alternative channels.</p>\n<p><strong>Ground truth</strong> Ground truth labeling rules are provided for both datasets in YAML format. Each rule specifies an attack type label, a sensitivity mode (moderate or strict), and one or more filter patterns. The rules are designed to be applied on a log timeline through pattern matching. A log entry is assigned the corresponding attack label if all filter patterns in a rule are matched. Entries that do not match any rule are labeled as benign. This allows researchers to systematically reproduce ground truth labels from the raw log files without manual annotation.</p>\n<p><strong>Intended use</strong><br>This dataset is intended for use in research on digital forensics, web security incident analysis, log-based anomaly detection, and forensic event reconstruction.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Anonim",
+        "affiliation": null
+      }
+    ],
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "mit-license"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "20001205"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Web Server Log Dataset",
+  "links": {
+    "self": "https://zenodo.org/api/records/20001206",
+    "self_html": "https://zenodo.org/records/20001206",
+    "preview_html": "https://zenodo.org/records/20001206?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.20001206",
+    "self_doi": "https://doi.org/10.5281/zenodo.20001206",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20001206",
+    "reserve_doi": "https://zenodo.org/api/records/20001206/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/20001205",
+    "parent_html": "https://zenodo.org/records/20001205",
+    "parent_doi": "https://doi.org/10.5281/zenodo.20001205",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20001205",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20001206/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20001206/sequence/default",
+    "files": "https://zenodo.org/api/records/20001206/files",
+    "media_files": "https://zenodo.org/api/records/20001206/media-files",
+    "latest": "https://zenodo.org/api/records/20001206/versions/latest",
+    "latest_html": "https://zenodo.org/records/20001206/latest",
+    "versions": "https://zenodo.org/api/records/20001206/versions",
+    "draft": "https://zenodo.org/api/records/20001206/draft",
+    "access_links": "https://zenodo.org/api/records/20001206/access/links",
+    "access_grants": "https://zenodo.org/api/records/20001206/access/grants",
+    "access_users": "https://zenodo.org/api/records/20001206/access/users",
+    "access_request": "https://zenodo.org/api/records/20001206/access/request",
+    "access": "https://zenodo.org/api/records/20001206/access",
+    "communities": "https://zenodo.org/api/records/20001206/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/20001206/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/20001206/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/20001206/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/20001206/quota-increase",
+    "requests": "https://zenodo.org/api/records/20001206/requests"
+  },
+  "updated": "2026-05-03T11:32:53.167017+00:00",
+  "recid": "20001206",
+  "revision": 4,
+  "files": [
+    {
+      "id": "e870ede9-1a20-4402-b4ee-d0b095637ab4",
+      "key": "organization-x.zip",
+      "size": 2135289,
+      "checksum": "md5:b4bf79effa6f3ee1b9e53f278d916620",
+      "links": {
+        "self": "https://zenodo.org/api/records/20001206/files/organization-x.zip/content"
+      }
+    },
+    {
+      "id": "ea56a050-d926-4f9a-95f8-2ad070a674d6",
+      "key": "organization-y.zip",
+      "size": 390765762,
+      "checksum": "md5:b1925ff7f043c391d501cfd404e0df10",
+      "links": {
+        "self": "https://zenodo.org/api/records/20001206/files/organization-y.zip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1633914"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 1833,
+    "unique_downloads": 1134,
+    "views": 2461,
+    "unique_views": 2282,
+    "version_downloads": 1833,
+    "version_unique_downloads": 1134,
+    "version_unique_views": 2282,
+    "version_views": 2461
+  },
+  "state": "done",
+  "submitted": true
+}

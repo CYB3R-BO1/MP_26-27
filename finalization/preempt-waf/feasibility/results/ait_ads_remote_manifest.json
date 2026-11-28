@@ -1,0 +1,155 @@
+{
+  "url": "https://zenodo.org/api/records/8263181/files/ait_ads.zip/content",
+  "archive_bytes": 96202946,
+  "content_range": null,
+  "zip_comment_bytes": 0,
+  "member_count": 16,
+  "total_member_compressed_bytes": 96200536,
+  "total_member_uncompressed_bytes": 2857702804,
+  "members": [
+    {
+      "name": "fox_aminer.json",
+      "compressed_bytes": 244738,
+      "uncompressed_bytes": 8879125,
+      "compression_method": 8,
+      "crc32": "0d897a6e",
+      "external_attributes": 32,
+      "local_header_offset": 0
+    },
+    {
+      "name": "fox_wazuh.json",
+      "compressed_bytes": 13823903,
+      "uncompressed_bytes": 491410473,
+      "compression_method": 8,
+      "crc32": "2c840e4d",
+      "external_attributes": 32,
+      "local_header_offset": 244783
+    },
+    {
+      "name": "harrison_aminer.json",
+      "compressed_bytes": 232289,
+      "uncompressed_bytes": 8693273,
+      "compression_method": 8,
+      "crc32": "019b4cc8",
+      "external_attributes": 32,
+      "local_header_offset": 14068730
+    },
+    {
+      "name": "harrison_wazuh.json",
+      "compressed_bytes": 23105851,
+      "uncompressed_bytes": 632912134,
+      "compression_method": 8,
+      "crc32": "7a0523b2",
+      "external_attributes": 32,
+      "local_header_offset": 14301069
+    },
+    {
+      "name": "russellmitchell_aminer.json",
+      "compressed_bytes": 89364,
+      "uncompressed_bytes": 3411024,
+      "compression_method": 8,
+      "crc32": "824847fe",
+      "external_attributes": 32,
+      "local_header_offset": 37406969
+    },
+    {
+      "name": "russellmitchell_wazuh.json",
+      "compressed_bytes": 1713409,
+      "uncompressed_bytes": 45282051,
+      "compression_method": 8,
+      "crc32": "839c7598",
+      "external_attributes": 32,
+      "local_header_offset": 37496390
+    },
+    {
+      "name": "santos_aminer.json",
+      "compressed_bytes": 104779,
+      "uncompressed_bytes": 3634879,
+      "compression_method": 8,
+      "crc32": "699cce4e",
+      "external_attributes": 32,
+      "local_header_offset": 39209855
+    },
+    {
+      "name": "santos_wazuh.json",
+      "compressed_bytes": 8325661,
+      "uncompressed_bytes": 145438925,
+      "compression_method": 8,
+      "crc32": "032825fc",
+      "external_attributes": 32,
+      "local_header_offset": 39314682
+    },
+    {
+      "name": "shaw_aminer.json",
+      "compressed_bytes": 88198,
+      "uncompressed_bytes": 1944470,
+      "compression_method": 8,
+      "crc32": "72eb112e",
+      "external_attributes": 32,
+      "local_header_offset": 47640390
+    },
+    {
+      "name": "shaw_wazuh.json",
+      "compressed_bytes": 2841043,
+      "uncompressed_bytes": 74755213,
+      "compression_method": 8,
+      "crc32": "e6f19a24",
+      "external_attributes": 32,
+      "local_header_offset": 47728634
+    },
+    {
+      "name": "wardbeck_aminer.json",
+      "compressed_bytes": 116885,
+      "uncompressed_bytes": 2583498,
+      "compression_method": 8,
+      "crc32": "1778515a",
+      "external_attributes": 32,
+      "local_header_offset": 50569722
+    },
+    {
+      "name": "wardbeck_wazuh.json",
+      "compressed_bytes": 3802392,
+      "uncompressed_bytes": 96564119,
+      "compression_method": 8,
+      "crc32": "5dc8fea2",
+      "external_attributes": 32,
+      "local_header_offset": 50686657
+    },
+    {
+      "name": "wheeler_aminer.json",
+      "compressed_bytes": 255381,
+      "uncompressed_bytes": 10220678,
+      "compression_method": 8,
+      "crc32": "e5da0afb",
+      "external_attributes": 32,
+      "local_header_offset": 54489098
+    },
+    {
+      "name": "wheeler_wazuh.json",
+      "compressed_bytes": 20791263,
+      "uncompressed_bytes": 650679741,
+      "compression_method": 8,
+      "crc32": "a30f168f",
+      "external_attributes": 32,
+      "local_header_offset": 54744528
+    },
+    {
+      "name": "wilson_aminer.json",
+      "compressed_bytes": 220048,
+      "uncompressed_bytes": 7570675,
+      "compression_method": 8,
+      "crc32": "747029dd",
+      "external_attributes": 32,
+      "local_header_offset": 75535839
+    },
+    {
+      "name": "wilson_wazuh.json",
+      "compressed_bytes": 20445332,
+      "uncompressed_bytes": 673722526,
+      "compression_method": 8,
+      "crc32": "0df09391",
+      "external_attributes": 32,
+      "local_header_offset": 75755935
+    }
+  ]
+}

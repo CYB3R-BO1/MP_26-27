@@ -1,0 +1,71 @@
+{
+  "source_url": "https://zenodo.org/api/records/19483937/files/wilson_no-pcaps.zip/content",
+  "manifest": "finalization\\preempt-waf\\feasibility\\results\\wilson_no-pcaps_remote_manifest.json",
+  "match": "^gather/intranet_server/logs/apache2/.*access\\.log(\\.\\d+)?$|^labels/intranet_server/logs/apache2/.*access\\.log\\.\\d+$",
+  "selected_count": 9,
+  "outputs": [
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.hallbrown.wilson.com-access.log.6",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-wilson-selected\\gather\\intranet_server\\logs\\apache2\\intranet.hallbrown.wilson.com-access.log.6",
+      "compressed_bytes_fetched": 100662,
+      "uncompressed_bytes_written": 1981987,
+      "crc32": "347af275"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.hallbrown.wilson.com-access.log.5",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-wilson-selected\\gather\\intranet_server\\logs\\apache2\\intranet.hallbrown.wilson.com-access.log.5",
+      "compressed_bytes_fetched": 80306,
+      "uncompressed_bytes_written": 1339540,
+      "crc32": "8b78c5c6"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.hallbrown.wilson.com-access.log.1",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-wilson-selected\\gather\\intranet_server\\logs\\apache2\\intranet.hallbrown.wilson.com-access.log.1",
+      "compressed_bytes_fetched": 80947,
+      "uncompressed_bytes_written": 1495954,
+      "crc32": "72204a11"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.hallbrown.wilson.com-access.log.3",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-wilson-selected\\gather\\intranet_server\\logs\\apache2\\intranet.hallbrown.wilson.com-access.log.3",
+      "compressed_bytes_fetched": 78142,
+      "uncompressed_bytes_written": 1471046,
+      "crc32": "53088534"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.hallbrown.wilson.com-access.log.4",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-wilson-selected\\gather\\intranet_server\\logs\\apache2\\intranet.hallbrown.wilson.com-access.log.4",
+      "compressed_bytes_fetched": 96377,
+      "uncompressed_bytes_written": 1774374,
+      "crc32": "e45a891d"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.hallbrown.wilson.com-access.log.2",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-wilson-selected\\gather\\intranet_server\\logs\\apache2\\intranet.hallbrown.wilson.com-access.log.2",
+      "compressed_bytes_fetched": 2183366,
+      "uncompressed_bytes_written": 70766181,
+      "crc32": "e17ef8e6"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/other_vhosts_access.log",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-wilson-selected\\gather\\intranet_server\\logs\\apache2\\other_vhosts_access.log",
+      "compressed_bytes_fetched": 0,
+      "uncompressed_bytes_written": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/access.log",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-wilson-selected\\gather\\intranet_server\\logs\\apache2\\access.log",
+      "compressed_bytes_fetched": 0,
+      "uncompressed_bytes_written": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "labels/intranet_server/logs/apache2/intranet.hallbrown.wilson.com-access.log.2",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-wilson-selected\\labels\\intranet_server\\logs\\apache2\\intranet.hallbrown.wilson.com-access.log.2",
+      "compressed_bytes_fetched": 1333940,
+      "uncompressed_bytes_written": 90782009,
+      "crc32": "3fe089bd"
+    }
+  ]
+}

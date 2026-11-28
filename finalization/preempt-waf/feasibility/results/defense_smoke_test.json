@@ -1,0 +1,37 @@
+{
+  "captured_date": "2026-11-28",
+  "scope": "isolated local smoke test; no external target and no successful exploit attempted",
+  "backend": {
+    "image_digest": "sha256:adaf6a6ca50f772dff7d2fe56972c659e81a61e0dbbe607c2b39fefd436e6153",
+    "application": "OWASP Juice Shop",
+    "version_label": "20.4.0-SNAPSHOT",
+    "benign_status": 200,
+    "benign_bytes": 9831,
+    "first_direct_seconds": 0.00510,
+    "thirty_request_mean_ms": 3.783,
+    "thirty_request_p95_ms": 5.743,
+    "idle_memory_mib": 165.8,
+    "snapshot_cpu_percent": 0.75
+  },
+  "waf": {
+    "image_digest": "sha256:cd1aa84167b5ba42539001c6fedf174484499ad1c37161df9eed1453e64d65e2",
+    "stack": "nginx 1.30.8; ModSecurity 3.0.17; connector 1.0.4; CRS 4.30.0",
+    "rules": 856,
+    "benign_status": 200,
+    "benign_bytes": 9831,
+    "first_proxy_seconds": 0.0244,
+    "thirty_request_mean_ms": 6.092,
+    "thirty_request_p95_ms": 9.960,
+    "harmless_sqli_shaped_missing_path_status": 403,
+    "harmless_sqli_shaped_missing_path_bytes": 146,
+    "matched_rules": [942100, 949110],
+    "idle_memory_mib": 97.65,
+    "snapshot_cpu_percent": 0.0
+  },
+  "caveats": [
+    "Direct requests were issued via docker exec, so the latency difference includes measurement-path overhead.",
+    "A blocked SQLi-shaped request proves rule enforcement, not prevented successful exploitation.",
+    "The smoke test did not implement application-side success assertions or the proposed adaptive controller.",
+    "Default audit output can include response bodies and must be minimized/redacted before research logging."
+  ]
+}

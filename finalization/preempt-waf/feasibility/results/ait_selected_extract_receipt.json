@@ -1,0 +1,78 @@
+{
+  "source_url": "https://zenodo.org/api/records/19483937/files/russellmitchell_no-pcaps.zip/content",
+  "manifest": "finalization\\preempt-waf\\feasibility\\results\\russellmitchell_no-pcaps_remote_manifest.json",
+  "match": "^(gather/intranet_server/logs/apache2/.*access\\.log(\\.\\d+)?|labels/intranet_server/logs/apache2/.*access\\.log\\.2|processing/config/attack_queries\\.yaml|gather/attacker_0/logs/ait\\.aecid\\.attacker\\.wpdiscuz/traffic\\.json)$",
+  "selected_count": 10,
+  "outputs": [
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.smith.russellmitchell.com-access.log.1",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-russellmitchell-selected\\gather\\intranet_server\\logs\\apache2\\intranet.smith.russellmitchell.com-access.log.1",
+      "compressed_bytes_fetched": 5428,
+      "uncompressed_bytes_written": 149432,
+      "crc32": "b14eba69"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.smith.russellmitchell.com-access.log",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-russellmitchell-selected\\gather\\intranet_server\\logs\\apache2\\intranet.smith.russellmitchell.com-access.log",
+      "compressed_bytes_fetched": 0,
+      "uncompressed_bytes_written": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.smith.russellmitchell.com-access.log.2",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-russellmitchell-selected\\gather\\intranet_server\\logs\\apache2\\intranet.smith.russellmitchell.com-access.log.2",
+      "compressed_bytes_fetched": 49076,
+      "uncompressed_bytes_written": 1565078,
+      "crc32": "b3ae7079"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.smith.russellmitchell.com-access.log.3",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-russellmitchell-selected\\gather\\intranet_server\\logs\\apache2\\intranet.smith.russellmitchell.com-access.log.3",
+      "compressed_bytes_fetched": 7679,
+      "uncompressed_bytes_written": 256115,
+      "crc32": "b666f818"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/other_vhosts_access.log",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-russellmitchell-selected\\gather\\intranet_server\\logs\\apache2\\other_vhosts_access.log",
+      "compressed_bytes_fetched": 0,
+      "uncompressed_bytes_written": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.smith.russellmitchell.com-access.log.4",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-russellmitchell-selected\\gather\\intranet_server\\logs\\apache2\\intranet.smith.russellmitchell.com-access.log.4",
+      "compressed_bytes_fetched": 9404,
+      "uncompressed_bytes_written": 289482,
+      "crc32": "95ed5562"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/access.log",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-russellmitchell-selected\\gather\\intranet_server\\logs\\apache2\\access.log",
+      "compressed_bytes_fetched": 0,
+      "uncompressed_bytes_written": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "gather/attacker_0/logs/ait.aecid.attacker.wpdiscuz/traffic.json",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-russellmitchell-selected\\gather\\attacker_0\\logs\\ait.aecid.attacker.wpdiscuz\\traffic.json",
+      "compressed_bytes_fetched": 91856909,
+      "uncompressed_bytes_written": 545451054,
+      "crc32": "f3c83b71"
+    },
+    {
+      "name": "labels/intranet_server/logs/apache2/intranet.smith.russellmitchell.com-access.log.2",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-russellmitchell-selected\\labels\\intranet_server\\logs\\apache2\\intranet.smith.russellmitchell.com-access.log.2",
+      "compressed_bytes_fetched": 24568,
+      "uncompressed_bytes_written": 1637968,
+      "crc32": "354c9bce"
+    },
+    {
+      "name": "processing/config/attack_queries.yaml",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-russellmitchell-selected\\processing\\config\\attack_queries.yaml",
+      "compressed_bytes_fetched": 1167,
+      "uncompressed_bytes_written": 10781,
+      "crc32": "affebb44"
+    }
+  ]
+}

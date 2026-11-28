@@ -1,0 +1,435 @@
+{
+  "source_url": "https://zenodo.org/api/records/20001206/files/organization-x.zip/content",
+  "manifest": "finalization\\preempt-waf\\feasibility\\results\\webserver_orgx_remote_manifest.json",
+  "match": "^organization-x/",
+  "selected_count": 65,
+  "outputs": [
+    {
+      "name": "organization-x/ground-truth/organization-x.yaml",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\ground-truth\\organization-x.yaml",
+      "compressed_bytes_fetched": 857,
+      "uncompressed_bytes_written": 5083,
+      "crc32": "2a4f3c8f"
+    },
+    {
+      "name": "organization-x/log/apache2/access.log",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\access.log",
+      "compressed_bytes_fetched": 0,
+      "uncompressed_bytes_written": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "organization-x/log/apache2/error.log",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\error.log",
+      "compressed_bytes_fetched": 231,
+      "uncompressed_bytes_written": 328,
+      "crc32": "59c107ed"
+    },
+    {
+      "name": "organization-x/log/apache2/error.log.1",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\error.log.1",
+      "compressed_bytes_fetched": 277,
+      "uncompressed_bytes_written": 447,
+      "crc32": "01a426e1"
+    },
+    {
+      "name": "organization-x/log/apache2/error.log.10.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\error.log.10.gz",
+      "compressed_bytes_fetched": 313,
+      "uncompressed_bytes_written": 313,
+      "crc32": "824c1e33"
+    },
+    {
+      "name": "organization-x/log/apache2/error.log.11.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\error.log.11.gz",
+      "compressed_bytes_fetched": 312,
+      "uncompressed_bytes_written": 312,
+      "crc32": "34d1af2b"
+    },
+    {
+      "name": "organization-x/log/apache2/error.log.12.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\error.log.12.gz",
+      "compressed_bytes_fetched": 315,
+      "uncompressed_bytes_written": 315,
+      "crc32": "d471ad48"
+    },
+    {
+      "name": "organization-x/log/apache2/error.log.13.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\error.log.13.gz",
+      "compressed_bytes_fetched": 316,
+      "uncompressed_bytes_written": 316,
+      "crc32": "424642c4"
+    },
+    {
+      "name": "organization-x/log/apache2/error.log.14.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\error.log.14.gz",
+      "compressed_bytes_fetched": 314,
+      "uncompressed_bytes_written": 314,
+      "crc32": "12c9a83e"
+    },
+    {
+      "name": "organization-x/log/apache2/error.log.2.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\error.log.2.gz",
+      "compressed_bytes_fetched": 312,
+      "uncompressed_bytes_written": 312,
+      "crc32": "45823e91"
+    },
+    {
+      "name": "organization-x/log/apache2/error.log.3.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\error.log.3.gz",
+      "compressed_bytes_fetched": 313,
+      "uncompressed_bytes_written": 313,
+      "crc32": "f82d245c"
+    },
+    {
+      "name": "organization-x/log/apache2/error.log.4.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\error.log.4.gz",
+      "compressed_bytes_fetched": 313,
+      "uncompressed_bytes_written": 313,
+      "crc32": "76ba6612"
+    },
+    {
+      "name": "organization-x/log/apache2/error.log.5.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\error.log.5.gz",
+      "compressed_bytes_fetched": 315,
+      "uncompressed_bytes_written": 315,
+      "crc32": "16a867e0"
+    },
+    {
+      "name": "organization-x/log/apache2/error.log.6.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\error.log.6.gz",
+      "compressed_bytes_fetched": 312,
+      "uncompressed_bytes_written": 312,
+      "crc32": "af7b06f7"
+    },
+    {
+      "name": "organization-x/log/apache2/error.log.7.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\error.log.7.gz",
+      "compressed_bytes_fetched": 316,
+      "uncompressed_bytes_written": 316,
+      "crc32": "bbfeefc1"
+    },
+    {
+      "name": "organization-x/log/apache2/error.log.8.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\error.log.8.gz",
+      "compressed_bytes_fetched": 314,
+      "uncompressed_bytes_written": 314,
+      "crc32": "c8954786"
+    },
+    {
+      "name": "organization-x/log/apache2/error.log.9.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\error.log.9.gz",
+      "compressed_bytes_fetched": 312,
+      "uncompressed_bytes_written": 312,
+      "crc32": "6a23a5d5"
+    },
+    {
+      "name": "organization-x/log/apache2/other_vhosts_access.log",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\other_vhosts_access.log",
+      "compressed_bytes_fetched": 0,
+      "uncompressed_bytes_written": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "organization-x/log/apache2/web-access.log",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-access.log",
+      "compressed_bytes_fetched": 35904,
+      "uncompressed_bytes_written": 842442,
+      "crc32": "123c4d01"
+    },
+    {
+      "name": "organization-x/log/apache2/web-access.log.1",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-access.log.1",
+      "compressed_bytes_fetched": 169725,
+      "uncompressed_bytes_written": 3731566,
+      "crc32": "7bcb49cd"
+    },
+    {
+      "name": "organization-x/log/apache2/web-access.log.10.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-access.log.10.gz",
+      "compressed_bytes_fetched": 73911,
+      "uncompressed_bytes_written": 74853,
+      "crc32": "5dfa0b26"
+    },
+    {
+      "name": "organization-x/log/apache2/web-access.log.11.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-access.log.11.gz",
+      "compressed_bytes_fetched": 170437,
+      "uncompressed_bytes_written": 171197,
+      "crc32": "303b0788"
+    },
+    {
+      "name": "organization-x/log/apache2/web-access.log.12.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-access.log.12.gz",
+      "compressed_bytes_fetched": 226627,
+      "uncompressed_bytes_written": 227584,
+      "crc32": "3de987c6"
+    },
+    {
+      "name": "organization-x/log/apache2/web-access.log.13.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-access.log.13.gz",
+      "compressed_bytes_fetched": 169497,
+      "uncompressed_bytes_written": 170444,
+      "crc32": "22a3b061"
+    },
+    {
+      "name": "organization-x/log/apache2/web-access.log.14.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-access.log.14.gz",
+      "compressed_bytes_fetched": 154118,
+      "uncompressed_bytes_written": 156024,
+      "crc32": "fb266457"
+    },
+    {
+      "name": "organization-x/log/apache2/web-access.log.2.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-access.log.2.gz",
+      "compressed_bytes_fetched": 80068,
+      "uncompressed_bytes_written": 80892,
+      "crc32": "adebf559"
+    },
+    {
+      "name": "organization-x/log/apache2/web-access.log.3.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-access.log.3.gz",
+      "compressed_bytes_fetched": 74624,
+      "uncompressed_bytes_written": 75399,
+      "crc32": "7c1daef6"
+    },
+    {
+      "name": "organization-x/log/apache2/web-access.log.4.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-access.log.4.gz",
+      "compressed_bytes_fetched": 110442,
+      "uncompressed_bytes_written": 111484,
+      "crc32": "d69d45cd"
+    },
+    {
+      "name": "organization-x/log/apache2/web-access.log.5.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-access.log.5.gz",
+      "compressed_bytes_fetched": 136390,
+      "uncompressed_bytes_written": 137129,
+      "crc32": "f5b1d03a"
+    },
+    {
+      "name": "organization-x/log/apache2/web-access.log.6.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-access.log.6.gz",
+      "compressed_bytes_fetched": 157095,
+      "uncompressed_bytes_written": 157782,
+      "crc32": "d1418552"
+    },
+    {
+      "name": "organization-x/log/apache2/web-access.log.7.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-access.log.7.gz",
+      "compressed_bytes_fetched": 166417,
+      "uncompressed_bytes_written": 167014,
+      "crc32": "51162305"
+    },
+    {
+      "name": "organization-x/log/apache2/web-access.log.8.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-access.log.8.gz",
+      "compressed_bytes_fetched": 166168,
+      "uncompressed_bytes_written": 166935,
+      "crc32": "e118e651"
+    },
+    {
+      "name": "organization-x/log/apache2/web-access.log.9.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-access.log.9.gz",
+      "compressed_bytes_fetched": 83375,
+      "uncompressed_bytes_written": 84233,
+      "crc32": "57d5acb5"
+    },
+    {
+      "name": "organization-x/log/apache2/web-error.log",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-error.log",
+      "compressed_bytes_fetched": 2605,
+      "uncompressed_bytes_written": 24199,
+      "crc32": "ff974a78"
+    },
+    {
+      "name": "organization-x/log/apache2/web-error.log.1",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-error.log.1",
+      "compressed_bytes_fetched": 8920,
+      "uncompressed_bytes_written": 99334,
+      "crc32": "465ede52"
+    },
+    {
+      "name": "organization-x/log/apache2/web-error.log.10.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-error.log.10.gz",
+      "compressed_bytes_fetched": 3635,
+      "uncompressed_bytes_written": 3635,
+      "crc32": "6e821f72"
+    },
+    {
+      "name": "organization-x/log/apache2/web-error.log.11.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-error.log.11.gz",
+      "compressed_bytes_fetched": 9451,
+      "uncompressed_bytes_written": 9451,
+      "crc32": "b6050949"
+    },
+    {
+      "name": "organization-x/log/apache2/web-error.log.12.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-error.log.12.gz",
+      "compressed_bytes_fetched": 12249,
+      "uncompressed_bytes_written": 12249,
+      "crc32": "0d010112"
+    },
+    {
+      "name": "organization-x/log/apache2/web-error.log.13.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-error.log.13.gz",
+      "compressed_bytes_fetched": 9852,
+      "uncompressed_bytes_written": 9852,
+      "crc32": "f1c92275"
+    },
+    {
+      "name": "organization-x/log/apache2/web-error.log.14.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-error.log.14.gz",
+      "compressed_bytes_fetched": 8189,
+      "uncompressed_bytes_written": 8189,
+      "crc32": "0f363e6a"
+    },
+    {
+      "name": "organization-x/log/apache2/web-error.log.2.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-error.log.2.gz",
+      "compressed_bytes_fetched": 3645,
+      "uncompressed_bytes_written": 3645,
+      "crc32": "52f4da09"
+    },
+    {
+      "name": "organization-x/log/apache2/web-error.log.3.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-error.log.3.gz",
+      "compressed_bytes_fetched": 3438,
+      "uncompressed_bytes_written": 3438,
+      "crc32": "9c3699eb"
+    },
+    {
+      "name": "organization-x/log/apache2/web-error.log.4.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-error.log.4.gz",
+      "compressed_bytes_fetched": 5998,
+      "uncompressed_bytes_written": 5998,
+      "crc32": "2ce85cbb"
+    },
+    {
+      "name": "organization-x/log/apache2/web-error.log.5.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-error.log.5.gz",
+      "compressed_bytes_fetched": 9065,
+      "uncompressed_bytes_written": 9065,
+      "crc32": "68fb8458"
+    },
+    {
+      "name": "organization-x/log/apache2/web-error.log.6.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-error.log.6.gz",
+      "compressed_bytes_fetched": 9283,
+      "uncompressed_bytes_written": 9283,
+      "crc32": "acc1b6b7"
+    },
+    {
+      "name": "organization-x/log/apache2/web-error.log.7.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-error.log.7.gz",
+      "compressed_bytes_fetched": 9074,
+      "uncompressed_bytes_written": 9074,
+      "crc32": "5688249b"
+    },
+    {
+      "name": "organization-x/log/apache2/web-error.log.8.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-error.log.8.gz",
+      "compressed_bytes_fetched": 8909,
+      "uncompressed_bytes_written": 8909,
+      "crc32": "af330d4a"
+    },
+    {
+      "name": "organization-x/log/apache2/web-error.log.9.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\apache2\\web-error.log.9.gz",
+      "compressed_bytes_fetched": 4173,
+      "uncompressed_bytes_written": 4173,
+      "crc32": "04b37ccf"
+    },
+    {
+      "name": "organization-x/log/auth.log",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\auth.log",
+      "compressed_bytes_fetched": 1450,
+      "uncompressed_bytes_written": 17891,
+      "crc32": "a5420b51"
+    },
+    {
+      "name": "organization-x/log/auth.log.1",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\auth.log.1",
+      "compressed_bytes_fetched": 6897,
+      "uncompressed_bytes_written": 116568,
+      "crc32": "0bd26402"
+    },
+    {
+      "name": "organization-x/log/auth.log.2.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\auth.log.2.gz",
+      "compressed_bytes_fetched": 3694,
+      "uncompressed_bytes_written": 4517,
+      "crc32": "6adf0a4f"
+    },
+    {
+      "name": "organization-x/log/auth.log.3.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\auth.log.3.gz",
+      "compressed_bytes_fetched": 4744,
+      "uncompressed_bytes_written": 5935,
+      "crc32": "ca5d6a86"
+    },
+    {
+      "name": "organization-x/log/auth.log.4.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\auth.log.4.gz",
+      "compressed_bytes_fetched": 3649,
+      "uncompressed_bytes_written": 4540,
+      "crc32": "2a54640a"
+    },
+    {
+      "name": "organization-x/log/syslog",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\syslog",
+      "compressed_bytes_fetched": 348,
+      "uncompressed_bytes_written": 1848,
+      "crc32": "17109041"
+    },
+    {
+      "name": "organization-x/log/syslog.1",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\syslog.1",
+      "compressed_bytes_fetched": 1049,
+      "uncompressed_bytes_written": 9504,
+      "crc32": "cf843fe3"
+    },
+    {
+      "name": "organization-x/log/syslog.2.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\syslog.2.gz",
+      "compressed_bytes_fetched": 1052,
+      "uncompressed_bytes_written": 1052,
+      "crc32": "0ee4fbe7"
+    },
+    {
+      "name": "organization-x/log/syslog.3.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\syslog.3.gz",
+      "compressed_bytes_fetched": 977,
+      "uncompressed_bytes_written": 977,
+      "crc32": "f3d027f3"
+    },
+    {
+      "name": "organization-x/log/syslog.4.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\syslog.4.gz",
+      "compressed_bytes_fetched": 1067,
+      "uncompressed_bytes_written": 1067,
+      "crc32": "8c2ea4cc"
+    },
+    {
+      "name": "organization-x/log/syslog.5.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\syslog.5.gz",
+      "compressed_bytes_fetched": 1124,
+      "uncompressed_bytes_written": 1124,
+      "crc32": "e95bd4c7"
+    },
+    {
+      "name": "organization-x/log/syslog.6.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\syslog.6.gz",
+      "compressed_bytes_fetched": 6846,
+      "uncompressed_bytes_written": 6846,
+      "crc32": "e1ca5886"
+    },
+    {
+      "name": "organization-x/log/syslog.7.gz",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webserver-orgx\\organization-x\\log\\syslog.7.gz",
+      "compressed_bytes_fetched": 1208,
+      "uncompressed_bytes_written": 1208,
+      "crc32": "4d7c25ed"
+    }
+  ]
+}

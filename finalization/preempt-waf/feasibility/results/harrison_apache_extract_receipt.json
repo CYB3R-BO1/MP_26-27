@@ -1,0 +1,64 @@
+{
+  "source_url": "https://zenodo.org/api/records/19483937/files/harrison_no-pcaps.zip/content",
+  "manifest": "finalization\\preempt-waf\\feasibility\\results\\harrison_no-pcaps_remote_manifest.json",
+  "match": "^gather/intranet_server/logs/apache2/.*access\\.log(\\.\\d+)?$|^labels/intranet_server/logs/apache2/.*access\\.log\\.\\d+$",
+  "selected_count": 8,
+  "outputs": [
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.mannsmith.harrison.com-access.log.5",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-harrison-selected\\gather\\intranet_server\\logs\\apache2\\intranet.mannsmith.harrison.com-access.log.5",
+      "compressed_bytes_fetched": 78142,
+      "uncompressed_bytes_written": 1491867,
+      "crc32": "a1fd6866"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.mannsmith.harrison.com-access.log.4",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-harrison-selected\\gather\\intranet_server\\logs\\apache2\\intranet.mannsmith.harrison.com-access.log.4",
+      "compressed_bytes_fetched": 71391,
+      "uncompressed_bytes_written": 1403819,
+      "crc32": "a5597cea"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.mannsmith.harrison.com-access.log.1",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-harrison-selected\\gather\\intranet_server\\logs\\apache2\\intranet.mannsmith.harrison.com-access.log.1",
+      "compressed_bytes_fetched": 2142655,
+      "uncompressed_bytes_written": 68215445,
+      "crc32": "8a1d4fd4"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.mannsmith.harrison.com-access.log.2",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-harrison-selected\\gather\\intranet_server\\logs\\apache2\\intranet.mannsmith.harrison.com-access.log.2",
+      "compressed_bytes_fetched": 66235,
+      "uncompressed_bytes_written": 1176212,
+      "crc32": "11f8f170"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.mannsmith.harrison.com-access.log.3",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-harrison-selected\\gather\\intranet_server\\logs\\apache2\\intranet.mannsmith.harrison.com-access.log.3",
+      "compressed_bytes_fetched": 81655,
+      "uncompressed_bytes_written": 1477184,
+      "crc32": "39cb1fbe"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/other_vhosts_access.log",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-harrison-selected\\gather\\intranet_server\\logs\\apache2\\other_vhosts_access.log",
+      "compressed_bytes_fetched": 0,
+      "uncompressed_bytes_written": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/access.log",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-harrison-selected\\gather\\intranet_server\\logs\\apache2\\access.log",
+      "compressed_bytes_fetched": 0,
+      "uncompressed_bytes_written": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "labels/intranet_server/logs/apache2/intranet.mannsmith.harrison.com-access.log.1",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-harrison-selected\\labels\\intranet_server\\logs\\apache2\\intranet.mannsmith.harrison.com-access.log.1",
+      "compressed_bytes_fetched": 1294794,
+      "uncompressed_bytes_written": 88086138,
+      "crc32": "fa5c6e6e"
+    }
+  ]
+}

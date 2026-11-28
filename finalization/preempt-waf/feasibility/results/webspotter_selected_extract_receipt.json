@@ -1,0 +1,106 @@
+{
+  "source_url": "https://zenodo.org/api/records/16978409/files/Sec-AI-research/WebSpotter-v1.0.zip/content",
+  "manifest": "finalization\\preempt-waf\\feasibility\\results\\webspotter_remote_manifest.json",
+  "match": "^Sec-AI-research-WebSpotter-5cdebaa/(LICENSE|README\\.md|requirements\\.txt|datasets/.*|core/inputter/HTTPDataset\\.py)$",
+  "selected_count": 20,
+  "outputs": [
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/LICENSE",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webspotter-v1.0-selected\\Sec-AI-research-WebSpotter-5cdebaa\\LICENSE",
+      "compressed_bytes_fetched": 633,
+      "uncompressed_bytes_written": 1072,
+      "crc32": "7fad6c68"
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/README.md",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webspotter-v1.0-selected\\Sec-AI-research-WebSpotter-5cdebaa\\README.md",
+      "compressed_bytes_fetched": 1727,
+      "uncompressed_bytes_written": 5549,
+      "crc32": "1b989061"
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/core/inputter/HTTPDataset.py",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webspotter-v1.0-selected\\Sec-AI-research-WebSpotter-5cdebaa\\core\\inputter\\HTTPDataset.py",
+      "compressed_bytes_fetched": 856,
+      "uncompressed_bytes_written": 2503,
+      "crc32": "16b85032"
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/CSIC/test.jsonl",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webspotter-v1.0-selected\\Sec-AI-research-WebSpotter-5cdebaa\\datasets\\CSIC\\test.jsonl",
+      "compressed_bytes_fetched": 469105,
+      "uncompressed_bytes_written": 2061254,
+      "crc32": "557ed2ba"
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/CSIC/train.jsonl",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webspotter-v1.0-selected\\Sec-AI-research-WebSpotter-5cdebaa\\datasets\\CSIC\\train.jsonl",
+      "compressed_bytes_fetched": 1412073,
+      "uncompressed_bytes_written": 6212729,
+      "crc32": "e6a8d2c7"
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/CVE/test.jsonl",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webspotter-v1.0-selected\\Sec-AI-research-WebSpotter-5cdebaa\\datasets\\CVE\\test.jsonl",
+      "compressed_bytes_fetched": 779166,
+      "uncompressed_bytes_written": 3460980,
+      "crc32": "6886e2f1"
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/CVE/train.jsonl",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webspotter-v1.0-selected\\Sec-AI-research-WebSpotter-5cdebaa\\datasets\\CVE\\train.jsonl",
+      "compressed_bytes_fetched": 2982959,
+      "uncompressed_bytes_written": 13103587,
+      "crc32": "cad27100"
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/FPAD-OOD/test.jsonl",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webspotter-v1.0-selected\\Sec-AI-research-WebSpotter-5cdebaa\\datasets\\FPAD-OOD\\test.jsonl",
+      "compressed_bytes_fetched": 1450205,
+      "uncompressed_bytes_written": 7582478,
+      "crc32": "758e2f78"
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/FPAD/test.jsonl",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webspotter-v1.0-selected\\Sec-AI-research-WebSpotter-5cdebaa\\datasets\\FPAD\\test.jsonl",
+      "compressed_bytes_fetched": 1130128,
+      "uncompressed_bytes_written": 4897708,
+      "crc32": "e5ab2323"
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/FPAD/train.jsonl",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webspotter-v1.0-selected\\Sec-AI-research-WebSpotter-5cdebaa\\datasets\\FPAD\\train.jsonl",
+      "compressed_bytes_fetched": 2633859,
+      "uncompressed_bytes_written": 11435138,
+      "crc32": "fb266def"
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/PKDD/test.jsonl",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webspotter-v1.0-selected\\Sec-AI-research-WebSpotter-5cdebaa\\datasets\\PKDD\\test.jsonl",
+      "compressed_bytes_fetched": 6704545,
+      "uncompressed_bytes_written": 17261753,
+      "crc32": "2ab1a55f"
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/PKDD/train.jsonl",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webspotter-v1.0-selected\\Sec-AI-research-WebSpotter-5cdebaa\\datasets\\PKDD\\train.jsonl",
+      "compressed_bytes_fetched": 26721165,
+      "uncompressed_bytes_written": 68905579,
+      "crc32": "7f132ddd"
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/datasets/README.md",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webspotter-v1.0-selected\\Sec-AI-research-WebSpotter-5cdebaa\\datasets\\README.md",
+      "compressed_bytes_fetched": 66,
+      "uncompressed_bytes_written": 69,
+      "crc32": "aff1aed5"
+    },
+    {
+      "name": "Sec-AI-research-WebSpotter-5cdebaa/requirements.txt",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\webspotter-v1.0-selected\\Sec-AI-research-WebSpotter-5cdebaa\\requirements.txt",
+      "compressed_bytes_fetched": 632,
+      "uncompressed_bytes_written": 1246,
+      "crc32": "f09ea07a"
+    }
+  ]
+}

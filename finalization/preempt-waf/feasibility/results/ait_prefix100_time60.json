@@ -1,0 +1,610 @@
+{
+  "prediction_target": "P(first AIT-ADS webshell-phase request within H | completed HTTP requests up to t)",
+  "strictly_pre_exploitation": true,
+  "response_timing": "Features use responses only from completed past requests; all snapshots precede the webshell timestamp.",
+  "split": "Eight outer held-out campaigns; one distinct validation campaign per fold; remaining six train.",
+  "limitations": [
+    "The eight AIT campaigns share attack automation and are not independent real adversaries.",
+    "Application-level snapshots do not identify a human or session; raw IP and user-agent values are excluded.",
+    "The webshell phase start is an exploit-attempt proxy, not proof of successful exploitation.",
+    "All campaigns eventually attack; early campaign time supplies negatives but no wholly benign campaign exists.",
+    "Overlapping snapshots are correlated; row-level metrics are descriptive, while event recall is campaign-level."
+  ],
+  "prefix_requests": 100,
+  "active_bin_seconds": 5,
+  "request_stride": 10000000,
+  "campaigns": [
+    "fox",
+    "harrison",
+    "russellmitchell",
+    "santos",
+    "shaw",
+    "wardbeck",
+    "wheeler",
+    "wilson"
+  ],
+  "snapshot_union": 33219,
+  "time_snapshots": 33219,
+  "request_snapshots": 8,
+  "feature_build_seconds": 85.95513329999812,
+  "total_runtime_seconds": 150.04914740000095,
+  "peak_rss_bytes": 715948032,
+  "software": {
+    "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+    "numpy": "2.2.4"
+  },
+  "results": [
+    {
+      "model": "logistic_individual",
+      "horizon_kind": "seconds",
+      "horizon": 60,
+      "snapshots": 33219,
+      "positives": 78,
+      "observed_prevalence": 0.0023480538246184414,
+      "pr_auc": 0.1786055143474286,
+      "precision": 0.08522727272727272,
+      "recall": 0.5769230769230769,
+      "false_positive_rate": 0.014574092513804654,
+      "brier_score": 0.002232701281031806,
+      "expected_calibration_error_10_bins": 0.0006028696042819185,
+      "pre_exploitation_campaign_recall": 0.875,
+      "median_lead_seconds_detected": 56.0,
+      "median_lead_requests_detected": 7033.0,
+      "mean_training_seconds_per_fold": 0.05329321249973873,
+      "mean_inference_microseconds_per_snapshot": 0.23093704692991837,
+      "campaign_bootstrap_95_ci": {
+        "pr_auc": [
+          0.14537106014761755,
+          0.3768322585654386
+        ],
+        "precision": [
+          0.052524233750250636,
+          0.1784380439943029
+        ],
+        "recall": [
+          0.3422374429223744,
+          0.8096345514950166
+        ],
+        "false_positive_rate": [
+          0.003402857735237021,
+          0.03938699405692871
+        ],
+        "brier_score": [
+          0.0013113644419053946,
+          0.004073757802592313
+        ],
+        "pre_exploitation_campaign_recall": [
+          0.625,
+          1.0
+        ]
+      },
+      "folds": [
+        {
+          "test_campaign": "fox",
+          "validation_campaign": "harrison",
+          "test_rows": 2907,
+          "test_positives": 10,
+          "threshold_from_validation": 0.028538690894968247,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 56.0,
+          "lead_requests_within_horizon": 15431,
+          "training_seconds": 0.054582500000833534,
+          "inference_microseconds_per_snapshot": 0.3601956941079244
+        },
+        {
+          "test_campaign": "harrison",
+          "validation_campaign": "russellmitchell",
+          "test_rows": 4758,
+          "test_positives": 12,
+          "threshold_from_validation": 0.01255826485973712,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 60.0,
+          "lead_requests_within_horizon": 12619,
+          "training_seconds": 0.05644680000114022,
+          "inference_microseconds_per_snapshot": 0.19444545537679084
+        },
+        {
+          "test_campaign": "russellmitchell",
+          "validation_campaign": "santos",
+          "test_rows": 733,
+          "test_positives": 8,
+          "threshold_from_validation": 0.004359500491507429,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 50.0,
+          "lead_requests_within_horizon": 6436,
+          "training_seconds": 0.05455259999871487,
+          "inference_microseconds_per_snapshot": 0.3405207208887789
+        },
+        {
+          "test_campaign": "santos",
+          "validation_campaign": "shaw",
+          "test_rows": 1994,
+          "test_positives": 10,
+          "threshold_from_validation": 0.004403292737752588,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 54.0,
+          "lead_requests_within_horizon": 6745,
+          "training_seconds": 0.05042439999670023,
+          "inference_microseconds_per_snapshot": 0.23436920158716232
+        },
+        {
+          "test_campaign": "shaw",
+          "validation_campaign": "wardbeck",
+          "test_rows": 2318,
+          "test_positives": 9,
+          "threshold_from_validation": 0.7458096522212628,
+          "event_detected_pre_exploitation": false,
+          "lead_seconds_within_horizon": null,
+          "lead_requests_within_horizon": null,
+          "training_seconds": 0.0451833000042825,
+          "inference_microseconds_per_snapshot": 0.13965745329507895
+        },
+        {
+          "test_campaign": "wardbeck",
+          "validation_campaign": "wheeler",
+          "test_rows": 12045,
+          "test_positives": 9,
+          "threshold_from_validation": 0.10773234857011516,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 44.0,
+          "lead_requests_within_horizon": 5225,
+          "training_seconds": 0.04542550000041956,
+          "inference_microseconds_per_snapshot": 0.14974391807763332
+        },
+        {
+          "test_campaign": "wheeler",
+          "validation_campaign": "wilson",
+          "test_rows": 2013,
+          "test_positives": 9,
+          "threshold_from_validation": 0.058303237221197374,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 57.0,
+          "lead_requests_within_horizon": 7033,
+          "training_seconds": 0.05547669999941718,
+          "inference_microseconds_per_snapshot": 0.18490075598576938
+        },
+        {
+          "test_campaign": "wilson",
+          "validation_campaign": "fox",
+          "test_rows": 6451,
+          "test_positives": 11,
+          "threshold_from_validation": 0.056729489422989415,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 58.0,
+          "lead_requests_within_horizon": 8308,
+          "training_seconds": 0.06425389999640174,
+          "inference_microseconds_per_snapshot": 0.2436631761202089
+        }
+      ]
+    },
+    {
+      "model": "logistic_behavioral",
+      "horizon_kind": "seconds",
+      "horizon": 60,
+      "snapshots": 33219,
+      "positives": 78,
+      "observed_prevalence": 0.0023480538246184414,
+      "pr_auc": 0.2007844858846924,
+      "precision": 0.1006036217303823,
+      "recall": 0.6410256410256411,
+      "false_positive_rate": 0.01348782474880058,
+      "brier_score": 0.002182950572566502,
+      "expected_calibration_error_10_bins": 0.0006910095777884579,
+      "pre_exploitation_campaign_recall": 1.0,
+      "median_lead_seconds_detected": 52.0,
+      "median_lead_requests_detected": 6679.5,
+      "mean_training_seconds_per_fold": 0.13314653749876015,
+      "mean_inference_microseconds_per_snapshot": 0.3120231896802962,
+      "campaign_bootstrap_95_ci": {
+        "pr_auc": [
+          0.09277562648376599,
+          0.5359344780739366
+        ],
+        "precision": [
+          0.06014600454624934,
+          0.23828571428571432
+        ],
+        "recall": [
+          0.4342105263157895,
+          0.837508445945946
+        ],
+        "false_positive_rate": [
+          0.0032938389502336378,
+          0.03227483933746807
+        ],
+        "brier_score": [
+          0.0012568150554126425,
+          0.004136443545699537
+        ],
+        "pre_exploitation_campaign_recall": [
+          1.0,
+          1.0
+        ]
+      },
+      "folds": [
+        {
+          "test_campaign": "fox",
+          "validation_campaign": "harrison",
+          "test_rows": 2907,
+          "test_positives": 10,
+          "threshold_from_validation": 0.0013260098986224778,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 56.0,
+          "lead_requests_within_horizon": 15431,
+          "training_seconds": 0.08539400000154274,
+          "inference_microseconds_per_snapshot": 0.2790998051001339
+        },
+        {
+          "test_campaign": "harrison",
+          "validation_campaign": "russellmitchell",
+          "test_rows": 4758,
+          "test_positives": 12,
+          "threshold_from_validation": 0.04951664884542601,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 60.0,
+          "lead_requests_within_horizon": 12619,
+          "training_seconds": 0.18350659999850905,
+          "inference_microseconds_per_snapshot": 0.2967947544265444
+        },
+        {
+          "test_campaign": "russellmitchell",
+          "validation_campaign": "santos",
+          "test_rows": 733,
+          "test_positives": 8,
+          "threshold_from_validation": 0.003683049572077785,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 50.0,
+          "lead_requests_within_horizon": 6436,
+          "training_seconds": 0.14992929999425542,
+          "inference_microseconds_per_snapshot": 0.4215621564519869
+        },
+        {
+          "test_campaign": "santos",
+          "validation_campaign": "shaw",
+          "test_rows": 1994,
+          "test_positives": 10,
+          "threshold_from_validation": 0.0018029356360058746,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 54.0,
+          "lead_requests_within_horizon": 6745,
+          "training_seconds": 0.14073699999426026,
+          "inference_microseconds_per_snapshot": 0.2883580709276902
+        },
+        {
+          "test_campaign": "shaw",
+          "validation_campaign": "wardbeck",
+          "test_rows": 2318,
+          "test_positives": 9,
+          "threshold_from_validation": 0.8404165737291804,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 36.0,
+          "lead_requests_within_horizon": 4466,
+          "training_seconds": 0.1265657999974792,
+          "inference_microseconds_per_snapshot": 0.2470305647394907
+        },
+        {
+          "test_campaign": "wardbeck",
+          "validation_campaign": "wheeler",
+          "test_rows": 12045,
+          "test_positives": 9,
+          "threshold_from_validation": 0.12473686033485812,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 38.0,
+          "lead_requests_within_horizon": 4491,
+          "training_seconds": 0.10127579999971204,
+          "inference_microseconds_per_snapshot": 0.43097168897412563
+        },
+        {
+          "test_campaign": "wheeler",
+          "validation_campaign": "wilson",
+          "test_rows": 2013,
+          "test_positives": 9,
+          "threshold_from_validation": 0.08572471130920255,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 32.0,
+          "lead_requests_within_horizon": 6614,
+          "training_seconds": 0.11838520000310382,
+          "inference_microseconds_per_snapshot": 0.2668950851579304
+        },
+        {
+          "test_campaign": "wilson",
+          "validation_campaign": "fox",
+          "test_rows": 6451,
+          "test_positives": 11,
+          "threshold_from_validation": 0.051853467541052245,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 58.0,
+          "lead_requests_within_horizon": 8308,
+          "training_seconds": 0.15937860000121873,
+          "inference_microseconds_per_snapshot": 0.26547339166446704
+        }
+      ]
+    },
+    {
+      "model": "gradient_boosted",
+      "horizon_kind": "seconds",
+      "horizon": 60,
+      "snapshots": 33219,
+      "positives": 78,
+      "observed_prevalence": 0.0023480538246184414,
+      "pr_auc": 0.4643028068146149,
+      "precision": 0.3567567567567568,
+      "recall": 0.8461538461538461,
+      "false_positive_rate": 0.0035907184454301317,
+      "brier_score": 0.001683530525946533,
+      "expected_calibration_error_10_bins": 0.001380731627213558,
+      "pre_exploitation_campaign_recall": 0.875,
+      "median_lead_seconds_detected": 56.0,
+      "median_lead_requests_detected": 7033.0,
+      "mean_training_seconds_per_fold": 0.8800151750001532,
+      "mean_inference_microseconds_per_snapshot": 1.0453178712392996,
+      "campaign_bootstrap_95_ci": {
+        "pr_auc": [
+          0.3603738868661223,
+          0.6870907587333557
+        ],
+        "precision": [
+          0.24986587982832617,
+          0.5363979150493514
+        ],
+        "recall": [
+          0.5866428571428571,
+          0.9875
+        ],
+        "false_positive_rate": [
+          0.001010332300179621,
+          0.008862670107497476
+        ],
+        "brier_score": [
+          0.0009181643034731205,
+          0.0033073437233215605
+        ],
+        "pre_exploitation_campaign_recall": [
+          0.625,
+          1.0
+        ]
+      },
+      "folds": [
+        {
+          "test_campaign": "fox",
+          "validation_campaign": "harrison",
+          "test_rows": 2907,
+          "test_positives": 10,
+          "threshold_from_validation": 0.053649124586798005,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 56.0,
+          "lead_requests_within_horizon": 15431,
+          "training_seconds": 5.720952700001362,
+          "inference_microseconds_per_snapshot": 1.494755381021153
+        },
+        {
+          "test_campaign": "harrison",
+          "validation_campaign": "russellmitchell",
+          "test_rows": 4758,
+          "test_positives": 12,
+          "threshold_from_validation": 0.23297947129772756,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 60.0,
+          "lead_requests_within_horizon": 12619,
+          "training_seconds": 0.22286509999685222,
+          "inference_microseconds_per_snapshot": 1.259278819128037
+        },
+        {
+          "test_campaign": "russellmitchell",
+          "validation_campaign": "santos",
+          "test_rows": 733,
+          "test_positives": 8,
+          "threshold_from_validation": 0.00010817941282861367,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 50.0,
+          "lead_requests_within_horizon": 6436,
+          "training_seconds": 0.1702858999997261,
+          "inference_microseconds_per_snapshot": 0.9223322338295871
+        },
+        {
+          "test_campaign": "santos",
+          "validation_campaign": "shaw",
+          "test_rows": 1994,
+          "test_positives": 10,
+          "threshold_from_validation": 0.0011636647348402555,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 54.0,
+          "lead_requests_within_horizon": 6745,
+          "training_seconds": 0.18336360000103014,
+          "inference_microseconds_per_snapshot": 0.7251159540879288
+        },
+        {
+          "test_campaign": "shaw",
+          "validation_campaign": "wardbeck",
+          "test_rows": 2318,
+          "test_positives": 9,
+          "threshold_from_validation": 0.8588358815154504,
+          "event_detected_pre_exploitation": false,
+          "lead_seconds_within_horizon": null,
+          "lead_requests_within_horizon": null,
+          "training_seconds": 0.16483420000440674,
+          "inference_microseconds_per_snapshot": 0.64838821978493
+        },
+        {
+          "test_campaign": "wardbeck",
+          "validation_campaign": "wheeler",
+          "test_rows": 12045,
+          "test_positives": 9,
+          "threshold_from_validation": 0.0774865050495258,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 44.0,
+          "lead_requests_within_horizon": 5225,
+          "training_seconds": 0.17821099999855505,
+          "inference_microseconds_per_snapshot": 0.7705719167212132
+        },
+        {
+          "test_campaign": "wheeler",
+          "validation_campaign": "wilson",
+          "test_rows": 2013,
+          "test_positives": 9,
+          "threshold_from_validation": 0.0059155293248594875,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 57.0,
+          "lead_requests_within_horizon": 7033,
+          "training_seconds": 0.15402499999618158,
+          "inference_microseconds_per_snapshot": 0.8593690927399653
+        },
+        {
+          "test_campaign": "wilson",
+          "validation_campaign": "fox",
+          "test_rows": 6451,
+          "test_positives": 11,
+          "threshold_from_validation": 0.01950892149388541,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 58.0,
+          "lead_requests_within_horizon": 8308,
+          "training_seconds": 0.24558390000311192,
+          "inference_microseconds_per_snapshot": 1.6827313526015832
+        }
+      ]
+    },
+    {
+      "model": "ngram_logistic",
+      "horizon_kind": "seconds",
+      "horizon": 60,
+      "snapshots": 33219,
+      "positives": 78,
+      "observed_prevalence": 0.0023480538246184414,
+      "pr_auc": 0.39778960643588407,
+      "precision": 0.26548672566371684,
+      "recall": 0.7692307692307693,
+      "false_positive_rate": 0.005008901360852117,
+      "brier_score": 0.0017679024322581763,
+      "expected_calibration_error_10_bins": 0.0013834638160477091,
+      "pre_exploitation_campaign_recall": 0.875,
+      "median_lead_seconds_detected": 54.0,
+      "median_lead_requests_detected": 6745.0,
+      "mean_training_seconds_per_fold": 4.3795920499987915,
+      "mean_inference_microseconds_per_snapshot": 0.4454412594776982,
+      "campaign_bootstrap_95_ci": {
+        "pr_auc": [
+          0.2565355765577715,
+          0.7001226108275777
+        ],
+        "precision": [
+          0.19702315166999182,
+          0.40531309297912715
+        ],
+        "recall": [
+          0.541952380952381,
+          0.9221028971028971
+        ],
+        "false_positive_rate": [
+          0.0015522295413990922,
+          0.011025008858100583
+        ],
+        "brier_score": [
+          0.0009643320607770078,
+          0.003266546715293257
+        ],
+        "pre_exploitation_campaign_recall": [
+          0.625,
+          1.0
+        ]
+      },
+      "folds": [
+        {
+          "test_campaign": "fox",
+          "validation_campaign": "harrison",
+          "test_rows": 2907,
+          "test_positives": 10,
+          "threshold_from_validation": 0.05729071456330028,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 56.0,
+          "lead_requests_within_horizon": 15431,
+          "training_seconds": 4.275331400000141,
+          "inference_microseconds_per_snapshot": 0.33955642606775094
+        },
+        {
+          "test_campaign": "harrison",
+          "validation_campaign": "russellmitchell",
+          "test_rows": 4758,
+          "test_positives": 12,
+          "threshold_from_validation": 0.08469023316301397,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 60.0,
+          "lead_requests_within_horizon": 12619,
+          "training_seconds": 4.24201109999558,
+          "inference_microseconds_per_snapshot": 0.36758331724548887
+        },
+        {
+          "test_campaign": "russellmitchell",
+          "validation_campaign": "santos",
+          "test_rows": 733,
+          "test_positives": 8,
+          "threshold_from_validation": 0.0017989892625281526,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 50.0,
+          "lead_requests_within_horizon": 6436,
+          "training_seconds": 4.29553969999688,
+          "inference_microseconds_per_snapshot": 1.1509350951976847
+        },
+        {
+          "test_campaign": "santos",
+          "validation_campaign": "shaw",
+          "test_rows": 1994,
+          "test_positives": 10,
+          "threshold_from_validation": 0.0023191687700565623,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 54.0,
+          "lead_requests_within_horizon": 6745,
+          "training_seconds": 4.198529300003429,
+          "inference_microseconds_per_snapshot": 0.38780148423701033
+        },
+        {
+          "test_campaign": "shaw",
+          "validation_campaign": "wardbeck",
+          "test_rows": 2318,
+          "test_positives": 9,
+          "threshold_from_validation": 0.3311714742945757,
+          "event_detected_pre_exploitation": false,
+          "lead_seconds_within_horizon": null,
+          "lead_requests_within_horizon": null,
+          "training_seconds": 4.394009299998288,
+          "inference_microseconds_per_snapshot": 0.24540834128208242
+        },
+        {
+          "test_campaign": "wardbeck",
+          "validation_campaign": "wheeler",
+          "test_rows": 12045,
+          "test_positives": 9,
+          "threshold_from_validation": 0.1908865916689456,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 38.0,
+          "lead_requests_within_horizon": 4491,
+          "training_seconds": 4.355912300001364,
+          "inference_microseconds_per_snapshot": 0.3674135725614455
+        },
+        {
+          "test_campaign": "wheeler",
+          "validation_campaign": "wilson",
+          "test_rows": 2013,
+          "test_positives": 9,
+          "threshold_from_validation": 0.02297447874028068,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 57.0,
+          "lead_requests_within_horizon": 7033,
+          "training_seconds": 5.008410299997195,
+          "inference_microseconds_per_snapshot": 0.3898393195771127
+        },
+        {
+          "test_campaign": "wilson",
+          "validation_campaign": "fox",
+          "test_rows": 6451,
+          "test_positives": 11,
+          "threshold_from_validation": 0.08923996729431732,
+          "event_detected_pre_exploitation": true,
+          "lead_seconds_within_horizon": 53.0,
+          "lead_requests_within_horizon": 6668,
+          "training_seconds": 4.266992999997456,
+          "inference_microseconds_per_snapshot": 0.31499251965300995
+        }
+      ]
+    }
+  ]
+}

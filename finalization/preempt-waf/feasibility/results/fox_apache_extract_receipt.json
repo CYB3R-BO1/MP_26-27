@@ -1,0 +1,64 @@
+{
+  "source_url": "https://zenodo.org/api/records/19483937/files/fox_no-pcaps.zip/content",
+  "manifest": "finalization\\preempt-waf\\feasibility\\results\\fox_no-pcaps_remote_manifest.json",
+  "match": "^gather/intranet_server/logs/apache2/.*access\\.log(\\.\\d+)?$|^labels/intranet_server/logs/apache2/.*access\\.log\\.\\d+$",
+  "selected_count": 8,
+  "outputs": [
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.price.fox.org-access.log.5",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-fox-selected\\gather\\intranet_server\\logs\\apache2\\intranet.price.fox.org-access.log.5",
+      "compressed_bytes_fetched": 35360,
+      "uncompressed_bytes_written": 725675,
+      "crc32": "7ce250dc"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.price.fox.org-access.log.2",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-fox-selected\\gather\\intranet_server\\logs\\apache2\\intranet.price.fox.org-access.log.2",
+      "compressed_bytes_fetched": 2030741,
+      "uncompressed_bytes_written": 67238407,
+      "crc32": "9322861f"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.price.fox.org-access.log.4",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-fox-selected\\gather\\intranet_server\\logs\\apache2\\intranet.price.fox.org-access.log.4",
+      "compressed_bytes_fetched": 29306,
+      "uncompressed_bytes_written": 546544,
+      "crc32": "e8d946e6"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.price.fox.org-access.log.3",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-fox-selected\\gather\\intranet_server\\logs\\apache2\\intranet.price.fox.org-access.log.3",
+      "compressed_bytes_fetched": 44634,
+      "uncompressed_bytes_written": 924311,
+      "crc32": "d513aba9"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/intranet.price.fox.org-access.log.1",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-fox-selected\\gather\\intranet_server\\logs\\apache2\\intranet.price.fox.org-access.log.1",
+      "compressed_bytes_fetched": 27132,
+      "uncompressed_bytes_written": 522074,
+      "crc32": "abd5ae88"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/other_vhosts_access.log",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-fox-selected\\gather\\intranet_server\\logs\\apache2\\other_vhosts_access.log",
+      "compressed_bytes_fetched": 0,
+      "uncompressed_bytes_written": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "gather/intranet_server/logs/apache2/access.log",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-fox-selected\\gather\\intranet_server\\logs\\apache2\\access.log",
+      "compressed_bytes_fetched": 0,
+      "uncompressed_bytes_written": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "labels/intranet_server/logs/apache2/intranet.price.fox.org-access.log.2",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\ait-lds-v2.1-fox-selected\\labels\\intranet_server\\logs\\apache2\\intranet.price.fox.org-access.log.2",
+      "compressed_bytes_fetched": 1280795,
+      "uncompressed_bytes_written": 87127789,
+      "crc32": "a4b8ad80"
+    }
+  ]
+}

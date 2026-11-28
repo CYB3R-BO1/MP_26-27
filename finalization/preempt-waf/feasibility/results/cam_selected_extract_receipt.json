@@ -1,0 +1,36 @@
+{
+  "source_url": "https://zenodo.org/api/records/18861762/files/scenario_1_pwnkit_localaccount.zip/content",
+  "manifest": "finalization\\preempt-waf\\feasibility\\results\\cam_scenario_1_pwnkit_localaccount_remote_manifest.json",
+  "match": "(videoserver/logs/access\\.log\\.1|attacker/logs/attackmate\\.json|/(inetfw|corpdns)/logs/log/suricata/eve\\.json)$",
+  "selected_count": 4,
+  "outputs": [
+    {
+      "name": "scenario_1_pwnkit_localaccount/videoserver/logs/access.log.1",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\cam-lds-scenario1-selected\\scenario_1_pwnkit_localaccount\\videoserver\\logs\\access.log.1",
+      "compressed_bytes_fetched": 202895,
+      "uncompressed_bytes_written": 3295507,
+      "crc32": "f5c7ea95"
+    },
+    {
+      "name": "scenario_1_pwnkit_localaccount/inetfw/logs/log/suricata/eve.json",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\cam-lds-scenario1-selected\\scenario_1_pwnkit_localaccount\\inetfw\\logs\\log\\suricata\\eve.json",
+      "compressed_bytes_fetched": 755563,
+      "uncompressed_bytes_written": 16217958,
+      "crc32": "075ee526"
+    },
+    {
+      "name": "scenario_1_pwnkit_localaccount/attacker/logs/attackmate.json",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\cam-lds-scenario1-selected\\scenario_1_pwnkit_localaccount\\attacker\\logs\\attackmate.json",
+      "compressed_bytes_fetched": 3109,
+      "uncompressed_bytes_written": 22761,
+      "crc32": "1970c005"
+    },
+    {
+      "name": "scenario_1_pwnkit_localaccount/corpdns/logs/log/suricata/eve.json",
+      "output": "C:\\Users\\cherr\\Documents\\PROJECTS\\MP_26-27\\finalization\\preempt-waf\\feasibility\\datasets\\cam-lds-scenario1-selected\\scenario_1_pwnkit_localaccount\\corpdns\\logs\\log\\suricata\\eve.json",
+      "compressed_bytes_fetched": 1031736,
+      "uncompressed_bytes_written": 14466814,
+      "crc32": "7e9a6c3c"
+    }
+  ]
+}
